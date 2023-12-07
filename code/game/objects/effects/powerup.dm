@@ -130,8 +130,7 @@
 	target.apply_status_effect(/datum/status_effect/mayhem)
 
 /obj/effect/powerup/bomberman
-	pickup_sound = 'sound/magic/lightningshock.ogg' //Pick something better
-	icon_state = "speed" //Temp for testing
+	pickup_sound = 'sound/machines/synth_yes.ogg'
 
 /obj/effect/powerup/bomberman/trigger(mob/living/target)
 	. = ..()
@@ -142,6 +141,7 @@
 /obj/effect/powerup/bomberman/speed
 	name = "speed up"
 	desc = "Makes you slightly faster."
+	icon_state = "speedup"
 
 /obj/effect/powerup/bomberman/speed/trigger(mob/living/target)
 	. = ..()
@@ -180,19 +180,22 @@
 /obj/effect/powerup/bomberman/fire
 	name = "robustness up"
 	desc = "Makes your toolboxes stronger."
+	icon_state = "fireup"
 
 /obj/effect/powerup/bomberman/fire/trigger(mob/living/target)
 	. = ..()
 	if(!.)
 		return
-	for(var/obj/item/storage/toolbox in target)
+	for(var/obj/item/storage/toolbox/toolbox in target)
 		if(toolbox.force < 16)
 			toolbox.force++
-			//Visual effect
+			toolbox.throwforce++
+			toolbox.transform = toolbox.transform.Scale(1.25, 1.25)
 		
 /obj/effect/powerup/bomberman/bomb
 	name = "toolbox up"
 	desc = "Gives you another toolbox."
+	icon_state = "toolboxup"
 
 /obj/effect/powerup/bomberman/bomb/trigger(mob/living/target)
 	. = ..()
