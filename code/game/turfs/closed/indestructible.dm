@@ -357,7 +357,3 @@ INITIALIZE_IMMEDIATE(/turf/closed/indestructible/splashscreen)
 	. = ..()
 	underlays += mutable_appearance('icons/turf/floors.dmi', "plating")
 
-/turf/closed/indestructible/bombermanwall
-	icon = 'icons/turf/walls/bombermanwall.dmi'
-	icon_state = "wall-0"
-	opacity = FALSE
