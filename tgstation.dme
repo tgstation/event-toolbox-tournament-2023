@@ -6043,4 +6043,6 @@
 #include "modular_event\base\vending_safety.dm"
 #include "modular_event\base\event_aheal_recall_spells\code\action.dm"
 #include "modular_event\base\event_aheal_recall_spells\code\living.dm"
+#include "modular_event\bomberman\powerup.dm"
+#include "modular_event\bomberman\wall.dm"
 // END_INCLUDE
