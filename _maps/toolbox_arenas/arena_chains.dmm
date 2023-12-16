@@ -5,7 +5,7 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "aT" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/turf_decal/trimline/dark,
@@ -13,7 +13,7 @@
 	pixel_y = 12
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "bo" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
@@ -22,7 +22,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "bJ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/clothing/mask/cigarette/cigar{
@@ -33,7 +33,7 @@
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "bY" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
@@ -46,7 +46,7 @@
 	},
 /obj/effect/turf_decal/trimline/dark,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "cc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/trimline/dark/corner{
@@ -56,11 +56,11 @@
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "cm" = (
 /obj/structure/table,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "cs" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -68,7 +68,7 @@
 	},
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "cS" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 8
@@ -77,7 +77,7 @@
 	dir = 5
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "dy" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 8
@@ -85,7 +85,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "fp" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -95,24 +95,24 @@
 	},
 /obj/effect/turf_decal/trimline/dark,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "ft" = (
 /obj/effect/turf_decal/trimline/dark/warning,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "fw" = (
 /obj/effect/turf_decal/trimline/dark/warning{
 	dir = 10
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "fB" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/effect/turf_decal/trimline/dark/corner{
 	dir = 1
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "ie" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/trimline/dark/warning{
@@ -122,7 +122,7 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "iW" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
@@ -131,7 +131,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "jg" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -141,7 +141,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "jp" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
@@ -150,14 +150,14 @@
 	dir = 6
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "jq" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "jt" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -167,7 +167,7 @@
 	},
 /obj/effect/turf_decal/caution/white,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "jy" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 8
@@ -177,7 +177,7 @@
 	dir = 5
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "kr" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
@@ -186,11 +186,11 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "kw" = (
 /obj/structure/lattice/catwalk,
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/centcom/tdome/arena)
 "kx" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 10
@@ -199,16 +199,16 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "kI" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/table/reinforced,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "kU" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "lk" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -218,7 +218,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "lq" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -228,7 +228,7 @@
 	},
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "mG" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -239,7 +239,7 @@
 	pixel_y = 12
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "mI" = (
 /obj/item/ammo_casing,
 /obj/item/ammo_casing{
@@ -250,13 +250,13 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "mM" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "nu" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
@@ -266,7 +266,7 @@
 	},
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "nP" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -276,14 +276,14 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "nR" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "oG" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/stack/spacecash/c50{
@@ -296,7 +296,7 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "oR" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -304,7 +304,7 @@
 	},
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "ql" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 8
@@ -314,13 +314,13 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "qn" = (
 /obj/effect/turf_decal/trimline/dark/warning{
 	dir = 6
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "qq" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/clothing/head/fedora,
@@ -328,34 +328,34 @@
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "qx" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/trimline/dark/corner{
 	dir = 1
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "qH" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 9
 	},
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "rD" = (
 /obj/effect/turf_decal/trimline/dark/warning{
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "sb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/trimline/dark/warning{
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "sk" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/clothing/head/cone{
@@ -368,7 +368,7 @@
 	pixel_y = 24
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "tI" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
@@ -377,26 +377,26 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "tL" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 5
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "tV" = (
 /obj/effect/turf_decal/trimline/dark/warning{
 	dir = 1
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "uj" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "uQ" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/decal/cleanable/crayon{
@@ -404,27 +404,27 @@
 	pixel_x = -10
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "vs" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "vJ" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
 /obj/effect/turf_decal/caution/white,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "vK" = (
 /obj/structure/lattice/catwalk,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
-/area/space)
+/area/centcom/tdome/arena)
 "vS" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -435,7 +435,7 @@
 	pixel_y = 12
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "wi" = (
 /obj/structure/chair/sofa/corp/right{
 	dir = 4;
@@ -445,7 +445,7 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "ww" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 8
@@ -458,7 +458,7 @@
 	pixel_y = -6
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "xr" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -469,27 +469,27 @@
 	pixel_y = 12
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "yb" = (
 /obj/item/toy/crayon/white{
 	pixel_x = 17
 	},
 /obj/effect/turf_decal/trimline/dark/warning,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "AZ" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 9
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "BJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/trimline/dark/warning{
 	dir = 9
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "BU" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -500,7 +500,7 @@
 	pixel_y = 12
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "Cm" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
@@ -513,25 +513,25 @@
 	},
 /obj/effect/turf_decal/trimline/dark,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "CX" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "Du" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/ammo_casing,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Dv" = (
 /obj/effect/decal/cleanable/blood/old,
 /turf/closed/wall{
 	opacity = 0
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "DA" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -539,11 +539,11 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "Fq" = (
 /obj/effect/turf_decal/trimline/dark/corner,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Fw" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/decal/cleanable/crayon{
@@ -561,7 +561,7 @@
 	pixel_y = -3
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "FX" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/clothing/head/cone{
@@ -569,11 +569,11 @@
 	pixel_y = 6
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Gq" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "GE" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/toy/gun{
@@ -587,23 +587,23 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "HK" = (
 /obj/structure/closet/body_bag,
 /obj/effect/turf_decal/trimline/dark/corner{
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Is" = (
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "It" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/closed/wall{
 	opacity = 0
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "Iw" = (
 /obj/item/clothing/head/cone{
 	pixel_x = -2;
@@ -615,14 +615,14 @@
 	pixel_y = 3
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "IQ" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/turf_decal/caution/white{
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "IY" = (
 /obj/structure/chair/sofa/corp/left{
 	dir = 4;
@@ -632,13 +632,13 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Jr" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "JH" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
@@ -652,12 +652,12 @@
 	pixel_y = 12
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "Kr" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/fans/tiny,
 /turf/open/floor/catwalk_floor,
-/area/space)
+/area/centcom/tdome/arena)
 "Kw" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/trimline/dark/warning{
@@ -667,14 +667,14 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Li" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "Lp" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
@@ -683,7 +683,7 @@
 	dir = 10
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "Mr" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
@@ -696,7 +696,7 @@
 	},
 /obj/effect/turf_decal/trimline/dark,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "NS" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
@@ -705,7 +705,7 @@
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "Pe" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/trimline/dark/corner,
@@ -713,7 +713,7 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Qh" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 5
@@ -723,7 +723,7 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "Qu" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/sign/poster/contraband/blood_geometer{
@@ -733,7 +733,7 @@
 /turf/closed/wall{
 	opacity = 0
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "RO" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/safe,
@@ -744,21 +744,21 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "RP" = (
 /obj/item/clothing/head/cone{
 	pixel_x = 3;
 	pixel_y = -6
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "RU" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 9
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "SA" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -769,34 +769,34 @@
 	pixel_y = 12
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "SY" = (
 /obj/structure/table_frame,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Tn" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/trimline/dark/corner,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Tz" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/trimline/dark/warning{
 	dir = 5
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "TS" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 10
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "UO" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "VS" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/crayon{
@@ -806,7 +806,7 @@
 /turf/closed/wall{
 	opacity = 0
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "WI" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
@@ -815,7 +815,7 @@
 	dir = 4
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "XY" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -823,7 +823,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "Yg" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
@@ -831,19 +831,19 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/effect/turf_decal/caution/white,
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "YE" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
 	},
 /turf/open/floor/iron/dark/textured,
-/area/space)
+/area/centcom/tdome/arena)
 "Za" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 
 (1,1,1) = {"
 Fw

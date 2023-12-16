@@ -8,7 +8,7 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "bb" = (
 /obj/effect/turf_decal/weather/sand{
 	color = "#662e2b";
@@ -17,7 +17,7 @@
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "bd" = (
 /obj/structure/mannequin/plastic,
 /obj/effect/turf_decal/siding/thinplating_new/dark,
@@ -25,42 +25,42 @@
 	name = "Dies-To-Premonitions"
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "cd" = (
 /obj/structure/flora/grass/green,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "db" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "dj" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/machinery/newscaster/directional/north,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "fR" = (
 /obj/structure/flora/grass/both/style_2,
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 8
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "hc" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "hE" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "iv" = (
 /obj/structure/sign/flag/tizira/directional/north,
 /obj/effect/turf_decal/siding/thinplating_new/dark,
@@ -68,18 +68,18 @@
 	dir = 1
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "jC" = (
 /obj/structure/flora/grass/jungle/a/style_random,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "lf" = (
 /obj/structure/fluff/paper/corner,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "lp" = (
 /obj/effect/turf_decal/weather/sand{
 	color = "#662e2b"
@@ -87,41 +87,41 @@
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "lO" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "lV" = (
 /obj/structure/fireplace,
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "lZ" = (
 /obj/structure/fluff/paper{
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "mD" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "nb" = (
 /obj/structure/flora/grass/both,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 5
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "nM" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "oK" = (
 /obj/effect/turf_decal/weather/sand{
 	color = "#662e2b";
@@ -130,7 +130,7 @@
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "pc" = (
 /obj/effect/turf_decal/weather/sand{
 	color = "#662e2b";
@@ -139,23 +139,23 @@
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "pd" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 10
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "pe" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 10
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "pA" = (
 /obj/structure/flora/grass/green/style_2,
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "pP" = (
 /obj/structure/fluff/paper{
 	dir = 8
@@ -163,7 +163,7 @@
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "qy" = (
 /obj/structure/sign/poster/contraband/the_griffin/directional/south,
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -171,14 +171,14 @@
 	},
 /obj/structure/fluff/paper/corner,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "qY" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/structure/fluff/paper{
 	dir = 1
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "rD" = (
 /obj/structure/fluff/paper/corner{
 	dir = 1
@@ -186,24 +186,24 @@
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "rN" = (
 /obj/structure/fluff/paper/corner{
 	dir = 8
 	},
 /turf/closed/indestructible/paper,
-/area/space)
+/area/centcom/tdome/arena)
 "sQ" = (
 /turf/open/misc/sandy_dirt{
 	color = "#ad4b45"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "sX" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 9
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "tH" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -211,7 +211,7 @@
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "tP" = (
 /obj/effect/turf_decal/weather/sand{
 	color = "#662e2b";
@@ -220,7 +220,7 @@
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "vy" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
@@ -229,7 +229,7 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "vZ" = (
 /obj/structure/sign/poster/contraband/smoke/directional/north,
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -240,12 +240,12 @@
 	},
 /obj/item/paper/crumpled,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "wC" = (
 /obj/structure/flora/grass/both,
 /obj/structure/statue/sandstone/venus,
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "wF" = (
 /obj/structure/fluff/paper/corner{
 	dir = 4
@@ -253,41 +253,41 @@
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "wS" = (
 /obj/structure/statue/sandstone/venus,
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "xc" = (
 /obj/item/paper/crumpled,
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "xx" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "xC" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 5
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "xX" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "yQ" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "yW" = (
 /obj/structure/sign/clock/directional/south,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -298,58 +298,58 @@
 	},
 /obj/structure/fluff/paper,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "zs" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
 	},
 /obj/item/light/tube/broken,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "zG" = (
 /obj/structure/fluff/paper{
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Ai" = (
 /turf/closed/indestructible/paper,
-/area/space)
+/area/centcom/tdome/arena)
 "Au" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
 /obj/structure/fluff/paper,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Bk" = (
 /obj/structure/flora/bush/fullgrass/style_3,
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "Bm" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "Cu" = (
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "Dk" = (
 /obj/structure/fluff/paper/corner{
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Et" = (
 /obj/structure/mannequin/plastic,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "GH" = (
 /obj/structure/sign/flag/ssc/directional/south,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -357,7 +357,7 @@
 	},
 /obj/structure/fluff/paper,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "IJ" = (
 /obj/structure/fluff/paper{
 	dir = 4
@@ -365,21 +365,21 @@
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "IS" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 9
 	},
 /obj/item/light/bulb/broken,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Ja" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 9
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "JI" = (
 /obj/item/flashlight/lamp/bananalamp{
 	pixel_x = -4;
@@ -393,37 +393,37 @@
 /turf/open/misc/sandy_dirt{
 	color = "#ad4b45"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "Kn" = (
 /obj/structure/flora/bush/fullgrass/style_random,
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "Ko" = (
 /obj/structure/mannequin/plastic,
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "LB" = (
 /obj/structure/flora/bush/fullgrass,
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "Ng" = (
 /obj/structure/flora/bush/lavendergrass/style_2,
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "Nu" = (
 /obj/structure/flora/grass/both/style_random,
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 8
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "NN" = (
 /obj/structure/sign/flag/tizira/directional/north,
 /obj/effect/turf_decal/siding/thinplating_new/dark,
@@ -431,26 +431,26 @@
 	dir = 1
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "NU" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 5
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "OO" = (
 /obj/item/paper/crumpled/bloody,
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "OU" = (
 /obj/structure/displaycase/trophy,
 /obj/item/reagent_containers/cup/glass/trophy/gold_cup,
 /turf/open/misc/sandy_dirt{
 	color = "#ad4b45"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "Pu" = (
 /obj/structure/fluff/paper{
 	dir = 1
@@ -459,7 +459,7 @@
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Pw" = (
 /obj/effect/turf_decal/weather/sand{
 	color = "#662e2b";
@@ -468,20 +468,20 @@
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "Qz" = (
 /obj/structure/flora/grass/green/style_3,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 9
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "QQ" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Rj" = (
 /obj/structure/fluff/paper/corner{
 	dir = 1
@@ -490,68 +490,68 @@
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Rz" = (
 /obj/structure/flora/grass/jungle/b/style_random,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 5
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "RJ" = (
 /obj/structure/flora/grass/jungle/b,
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "Tk" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
 	},
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "TA" = (
 /obj/structure/fluff/paper,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "TD" = (
 /obj/structure/flora/grass/jungle/a/style_3,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 10
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "Uu" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 8
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "UW" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Vg" = (
 /obj/structure/fluff/paper/corner,
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "VP" = (
 /obj/structure/flora/grass/both,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 9
 	},
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "WM" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
 /turf/open/floor/stone,
-/area/space)
+/area/centcom/tdome/arena)
 "Xe" = (
 /obj/effect/turf_decal/weather/sand{
 	color = "#662e2b";
@@ -560,7 +560,7 @@
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "XK" = (
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/fluff/paper/corner{
@@ -569,16 +569,16 @@
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "Yi" = (
 /turf/open/misc/ashplanet/wateryrock,
-/area/space)
+/area/centcom/tdome/arena)
 "Zj" = (
 /obj/structure/fluff/paper,
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 "Zp" = (
 /obj/effect/turf_decal/weather/sand{
 	color = "#662e2b";
@@ -587,7 +587,7 @@
 /turf/open/misc/dirt{
 	color = "#9e6b59"
 	},
-/area/space)
+/area/centcom/tdome/arena)
 
 (1,1,1) = {"
 wS
