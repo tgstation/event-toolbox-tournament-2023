@@ -10,12 +10,11 @@ type TournamentControllerData = {
 };
 
 const ArenaInfo = (props, context) => {
-  const { act, data } = useBackend<TournamentControllerData>(context);
+  const { act, data } = useBackend<TournamentControllerData>();
 
   const [selectedArena, setSelectedArea] = useLocalState<string | null>(
-    context,
     'selectedArena',
-    null
+    null,
   );
 
   return (
@@ -25,10 +24,11 @@ const ArenaInfo = (props, context) => {
           <Stack.Item
             grow={1}
             style={{
-              'overflow': 'hidden',
+              overflow: 'hidden',
               'white-space': 'nowrap',
               'text-overflow': 'ellipsis',
-            }}>
+            }}
+          >
             {'Arena - ' + data.arena_id}
           </Stack.Item>
           <Stack.Item align="end" shrink={0}>
@@ -40,7 +40,8 @@ const ArenaInfo = (props, context) => {
             />
           </Stack.Item>
         </Stack>
-      }>
+      }
+    >
       <Stack fill>
         <Stack.Item grow>
           <Dropdown
@@ -59,7 +60,8 @@ const ArenaInfo = (props, context) => {
               act('load_arena', {
                 arena_template: selectedArena,
               })
-            }>
+            }
+          >
             Load
           </Button>
         </Stack.Item>
@@ -69,24 +71,21 @@ const ArenaInfo = (props, context) => {
 };
 
 const RoundInfo = (props, context) => {
-  const { act, data } = useBackend<TournamentControllerData>(context);
+  const { act, data } = useBackend<TournamentControllerData>();
 
   const [selectedTeamA, setSelectedTeamA] = useLocalState(
-    context,
     'selectedTeamA',
-    data.team_names[0]
+    data.team_names[0],
   );
 
   const [selectedTeamB, setSelectedTeamB] = useLocalState(
-    context,
     'selectedTeamB',
-    data.team_names[1]
+    data.team_names[1],
   );
 
   const [respawnRemove, setRespawnRemove] = useLocalState(
-    context,
     'respawnRemove',
-    true
+    true,
   );
 
   return (
@@ -120,7 +119,8 @@ const RoundInfo = (props, context) => {
               icon="user-edit"
               onClick={() => {
                 act('vv_teams');
-              }}>
+              }}
+            >
               VV teams
             </Button>
           </Stack.Item>
