@@ -7,12 +7,12 @@
 	to_chat(target, span_userdanger("You scream in terror as you suddenly go blind!"))
 	target.emote("scream")
 
-	if(!iscarbon(target))
-		target.set_blindness(200)
+	if(!isliving(target))
+		target.become_blind("smite")
 		return
 
-	var/obj/item/organ/internal/eyes/eyes = target.getorganslot(ORGAN_SLOT_EYES)
-	eyes.applyOrganDamage(eyes.maxHealth)
+	var/obj/item/organ/internal/eyes/eyes = target.get_organ_slot(ORGAN_SLOT_EYES)
+	eyes.apply_organ_damage(eyes.maxHealth)
 
 /datum/smite/reverse_controls
 	name = "Reverse controls"

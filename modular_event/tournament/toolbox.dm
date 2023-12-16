@@ -35,7 +35,7 @@
 /obj/item/toolbox_soul
 	name = "toolbox soul"
 	desc = "An authentic crystalized toolbox soul. Use on a toolbox to give it back its soul."
-	icon = 'icons/obj/wizard.dmi'
+	icon = 'icons/obj/mining_zones/artefacts.dmi'
 	icon_state = "purified_soulstone2"
 	inhand_icon_state = "electronic"
 	lefthand_file = 'icons/mob/inhands/items/devices_lefthand.dmi'
@@ -57,7 +57,7 @@
 	target_toolbox.icon_state = "toolbox_blue_old"
 	target_toolbox.has_latches = FALSE
 	playsound(user, 'sound/magic/magic_block_holy.ogg', 50, TRUE)
-	var/effect = mutable_appearance('icons/effects/genetics.dmi', "servitude", -MUTATIONS_LAYER)
+	var/effect = mutable_appearance('icons/mob/effects/genetics.dmi', "servitude", -MUTATIONS_LAYER)
 	user.add_overlay(effect)
 	addtimer(CALLBACK(user, /atom/proc/cut_overlay, effect), 2 SECONDS)
 	qdel(src)

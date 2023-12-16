@@ -1,6 +1,6 @@
 /obj/machinery/tournament_spawn
 	name = "tournament spawn"
-	icon = 'icons/obj/device.dmi'
+	icon = 'icons/obj/machines/beacon.dmi'
 	icon_state = "syndbeacon"
 	resistance_flags = INDESTRUCTIBLE
 

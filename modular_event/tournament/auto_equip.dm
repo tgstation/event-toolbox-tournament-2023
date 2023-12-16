@@ -88,7 +88,7 @@ SUBSYSTEM_DEF(auto_equip)
 
 	// mostly copy pasta from chameleon_outfit/proc/select_outfit but a lot less restrictive
 	var/list/outfit_parts = model_outfit.get_chameleon_disguise_info()
-	for(var/datum/action/item_action/chameleon/change/change_action as anything in chameleon_item_actions)
+	for(var/datum/action/item_action/chameleon/change/change_action as anything in actions)
 		for(var/outfit_part in outfit_parts)
 			if(ispath(outfit_part, change_action.chameleon_type))
 				change_action.update_look(src, outfit_part)
@@ -105,12 +105,12 @@ SUBSYSTEM_DEF(auto_equip)
 			var/obj/item/clothing/suit/hooded/hooded = model_outfit.suit
 			helmet_type = initial(hooded.hoodtype)
 		if(helmet_type)
-			var/obj/item/clothing/head/chameleon/hat = head
-			hat.chameleon_action.update_look(src, helmet_type)
+			var/datum/action/item_action/chameleon/change/hat/hat_action = locate() in actions
+			hat_action?.update_look(src, helmet_type)
 
 	// lock cham appearance
-	for(var/action in chameleon_item_actions)
-		qdel(action) // we can't just QDEL_LIST instead because the Cut() will fail
+	for(var/datum/action/item_action/chameleon/change/change_action as anything in actions)
+		qdel(change_action) // we can't just QDEL_LIST instead because the Cut() will fail
 
 /datum/outfit/job/vip
 	name = "Donator"
@@ -142,7 +142,7 @@ SUBSYSTEM_DEF(auto_equip)
 	new /obj/item/storage/backpack/chameleon(src)
 	new /obj/item/storage/belt/chameleon(src)
 	new /obj/item/radio/headset/chameleon(src)
-	new /obj/item/modular_computer/tablet/pda/chameleon(src)
+	new /obj/item/modular_computer/pda/chameleon(src)
 
 // Tournament box
 /obj/item/storage/box/survival/tournament/
