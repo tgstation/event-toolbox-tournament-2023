@@ -1,1 +1,252 @@
-[{"name":"The Highest Average Ping","roster":["Constellado","Blacklist897","El Derp o Derp"],"team_id":"129399031398006784"},{"name":"Manuelite Metagrudgers","roster":["empressmaia","definitelynotatraitor","xzero"],"team_id":"254586398886199296"},{"name":"The Cats","roster":["lipino7","matycer","king_mapache"],"team_id":"304968156588277772"},{"name":"Happy Smilers","roster":["sk1wass3r","theduffyboi1916","coolcatisfeelinggroovy"],"team_id":"797037674292707340"},{"name":"Team Monkee","roster":["ruby flamewing","lolc4n","camriod"],"team_id":"206443270581125122"},{"name":"G.S.T","roster":["projanitor","maskenary","Lokuthewise"],"team_id":"525019886494154763"},{"name":"nutsnatchers","roster":["Aves_maximus","naud","subsofa"],"team_id":"282263978581950476"},{"name":"CRUDE CUCUMBERS","roster":["kinnebian","voudez","striders13"],"team_id":"305739985376509952"},{"name":"I got caught metacomming and all I got was this stupid t-shirt","roster":["tapubulu","theduffelbag","I Hate Geese"],"team_id":"213135107467247618"},{"name":"My Little Fulpies: Friendship is","roster":["soreyew","saladlegs","gunmer"],"team_id":"153355020643860480"},{"name":"eeeeeeeee (but in Noir)","roster":["genebean","Coen_96","LacunaTrickster"],"team_id":"458562020757733376"},{"name":"The Least Robust™","roster":["pumpkinthefoxxd","secretcobra","pilot778"],"team_id":"990621309014794240"},{"name":"The GC","roster":["johnwillard","tatax","funnytoilet"],"team_id":"267709769622618112"},{"name":"The Marquis of Monke","roster":["glyphee","bottleoffur","bidlink2"],"team_id":"486872578447900674"},{"name":"The Sybil Smashers","roster":["Pbj567","Togopal","Cyberjunk"],"team_id":"764649952616906782"},{"name":"Silly Little Goobers","roster":["generubi","medianocheuwu","demir pl"],"team_id":"263211822990098432"},{"name":"Say Gex","roster":["chappygart","enderbran","cvs_pharmacy"],"team_id":"767364320107167806"},{"name":"Two Lizards and a Cat","roster":["Britgrenadier1","ItzRiumz","Vulpes_is_hot"],"team_id":"176868235809914880"},{"name":"The Manuel Men","roster":["rustybuckets6601","falloutfalconplays","insertgoodnamehere"],"team_id":"97418488234119168"},{"name":"The Massmeta Macerators","roster":["nastielfired","ayeblinchik","arbuzik456"],"team_id":"422057252686659596"},{"name":"Addust's Merry Band of Idiots","roster":["addust","spaghetter","ghom"],"team_id":"767021308810494033"},{"name":"Meet and Swag Kingdom two","roster":["BallastMonsterGnarGnar","TheWolfBringer","Trexter555"],"team_id":"674745293735985162"},{"name":"Applebee's Employees","roster":["adeptaxolotl","hex1fy","soy_saucw"],"team_id":"296785959595540480"},{"name":"The J Team","roster":["DrAmazing343","JupiterJaeden","nickup9"],"team_id":"121039344172662786"},{"name":"The Grapes","roster":["Saint1453","DaliIsTaken","kieth4"],"team_id":"461278166032318484"}]
+[
+  {
+    "name": "The Highest Average Ping",
+    "roster": [
+      "Constellado",
+      "Blacklist897",
+      "El Derp o Derp"
+    ],
+    "outfit": {},
+    "team_id": "129399031398006784"
+  },
+  {
+    "name": "Manuelite Metagrudgers",
+    "roster": [
+      "empressmaia",
+      "definitelynotatraitor",
+      "xzero"
+    ],
+    "outfit": {},
+    "team_id": "254586398886199296"
+  },
+  {
+    "name": "The Cats",
+    "roster": [
+      "lipino7",
+      "matycer",
+      "king_mapache"
+    ],
+    "outfit": {},
+    "team_id": "304968156588277772"
+  },
+  {
+    "name": "Happy Smilers",
+    "roster": [
+      "sk1wass3r",
+      "theduffyboi1916",
+      "coolcatisfeelinggroovy"
+    ],
+    "outfit": {},
+    "team_id": "797037674292707340"
+  },
+  {
+    "name": "Team Monkee",
+    "roster": [
+      "ruby flamewing",
+      "lolc4n",
+      "camriod"
+    ],
+    "outfit": {},
+    "team_id": "206443270581125122"
+  },
+  {
+    "name": "G.S.T",
+    "roster": [
+      "projanitor",
+      "maskenary",
+      "Lokuthewise"
+    ],
+    "outfit": {},
+    "team_id": "525019886494154763"
+  },
+  {
+    "name": "nutsnatchers",
+    "roster": [
+      "Aves_maximus",
+      "naud",
+      "subsofa"
+    ],
+    "outfit": {},
+    "team_id": "282263978581950476"
+  },
+  {
+    "name": "CRUDE CUCUMBERS",
+    "roster": [
+      "kinnebian",
+      "voudez",
+      "striders13"
+    ],
+    "outfit": {},
+    "team_id": "305739985376509952"
+  },
+  {
+    "name": "I got caught metacomming and all I got was this stupid t-shirt",
+    "roster": [
+      "tapubulu",
+      "theduffelbag",
+      "I Hate Geese"
+    ],
+    "outfit": {},
+    "team_id": "213135107467247618"
+  },
+  {
+    "name": "My Little Fulpies: Friendship is",
+    "roster": [
+      "soreyew",
+      "saladlegs",
+      "gunmer"
+    ],
+    "outfit": {},
+    "team_id": "153355020643860480"
+  },
+  {
+    "name": "eeeeeeeee (but in Noir)",
+    "roster": [
+      "genebean",
+      "Coen_96",
+      "LacunaTrickster"
+    ],
+    "outfit": {},
+    "team_id": "458562020757733376"
+  },
+  {
+    "name": "The Least Robust™",
+    "roster": [
+      "pumpkinthefoxxd",
+      "secretcobra",
+      "pilot778"
+    ],
+    "outfit": {},
+    "team_id": "990621309014794240"
+  },
+  {
+    "name": "The GC",
+    "roster": [
+      "johnwillard",
+      "tatax",
+      "funnytoilet"
+    ],
+    "outfit": {},
+    "team_id": "267709769622618112"
+  },
+  {
+    "name": "The Marquis of Monke",
+    "roster": [
+      "glyphee",
+      "bottleoffur",
+      "bidlink2"
+    ],
+    "outfit": {},
+    "team_id": "486872578447900674"
+  },
+  {
+    "name": "The Sybil Smashers",
+    "roster": [
+      "Pbj567",
+      "Togopal",
+      "Cyberjunk"
+    ],
+    "outfit": {},
+    "team_id": "764649952616906782"
+  },
+  {
+    "name": "Silly Little Goobers",
+    "roster": [
+      "generubi",
+      "medianocheuwu",
+      "demir pl"
+    ],
+    "outfit": {},
+    "team_id": "263211822990098432"
+  },
+  {
+    "name": "Say Gex",
+    "roster": [
+      "chappygart",
+      "enderbran",
+      "cvs_pharmacy"
+    ],
+    "outfit": {},
+    "team_id": "767364320107167806"
+  },
+  {
+    "name": "Two Lizards and a Cat",
+    "roster": [
+      "Britgrenadier1",
+      "ItzRiumz",
+      "Vulpes_is_hot"
+    ],
+    "outfit": {},
+    "team_id": "176868235809914880"
+  },
+  {
+    "name": "The Manuel Men",
+    "roster": [
+      "rustybuckets6601",
+      "falloutfalconplays",
+      "insertgoodnamehere"
+    ],
+    "outfit": {},
+    "team_id": "97418488234119168"
+  },
+  {
+    "name": "The Massmeta Macerators",
+    "roster": [
+      "nastielfired",
+      "ayeblinchik",
+      "arbuzik456"
+    ],
+    "outfit": {},
+    "team_id": "422057252686659596"
+  },
+  {
+    "name": "Addust's Merry Band of Idiots",
+    "roster": [
+      "addust",
+      "spaghetter",
+      "ghom"
+    ],
+    "outfit": {},
+    "team_id": "767021308810494033"
+  },
+  {
+    "name": "Meet and Swag Kingdom two",
+    "roster": [
+      "BallastMonsterGnarGnar",
+      "TheWolfBringer",
+      "Trexter555"
+    ],
+    "outfit": {},
+    "team_id": "674745293735985162"
+  },
+  {
+    "name": "Applebee's Employees",
+    "roster": [
+      "adeptaxolotl",
+      "hex1fy",
+      "soy_saucw"
+    ],
+    "outfit": {},
+    "team_id": "296785959595540480"
+  },
+  {
+    "name": "The J Team",
+    "roster": [
+      "DrAmazing343",
+      "JupiterJaeden",
+      "nickup9"
+    ],
+    "outfit": {},
+    "team_id": "121039344172662786"
+  },
+  {
+    "name": "The Grapes",
+    "roster": [
+      "Saint1453",
+      "DaliIsTaken",
+      "kieth4"
+    ],
+    "outfit": {},
+    "team_id": "461278166032318484"
+  }
+]

@@ -33,7 +33,7 @@ GLOBAL_LIST_INIT_TYPED(tournament_teams, /datum/tournament_team, get_tournament_
 	var/toolbox_color = data["toolbox_color"]
 	if (!findtext(toolbox_color, GLOB.is_color))
 		//return "No toolbox_color provided."
-		tournament_team.toolbox_color = "#89CFF0" // blue
+		tournament_team.toolbox_color = "#1a86b8" // blue
 	else
 		tournament_team.toolbox_color = toolbox_color
 
