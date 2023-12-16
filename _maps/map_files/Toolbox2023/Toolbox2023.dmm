@@ -13569,7 +13569,6 @@
 	},
 /area/event)
 "gLK" = (
-/obj/effect/decal/cleanable/cobweb/cobweb2,
 /turf/open/water,
 /area/event)
 "gLR" = (
@@ -15088,7 +15087,7 @@
 /area/event)
 "hwW" = (
 /obj/structure/fake_stairs/directional/east,
-/turf/open/space/basic,
+/turf/open/floor/iron/dark/textured,
 /area/event)
 "hwY" = (
 /obj/structure/chair/office,
@@ -15163,7 +15162,7 @@
 "hAa" = (
 /obj/structure/bookcase/random,
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
-/turf/open/space/basic,
+/turf/open/floor/iron/dark/textured,
 /area/event)
 "hAh" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -16203,7 +16202,7 @@
 /obj/structure/fence/cut/medium{
 	dir = 4
 	},
-/turf/open/space/basic,
+/turf/open/floor/stone,
 /area/event)
 "hYc" = (
 /obj/effect/turf_decal/siding/wood,
@@ -16895,9 +16894,6 @@
 	},
 /obj/structure/fluff/paper/corner{
 	dir = 4
-	},
-/obj/machinery/airlock_controller{
-	pixel_y = 32
 	},
 /obj/effect/turf_decal/trimline/dark,
 /obj/effect/turf_decal/trimline/dark/mid_joiner{
@@ -20406,7 +20402,7 @@
 	dir = 4
 	},
 /obj/structure/barricade/wooden/crude,
-/turf/open/space/basic,
+/turf/open/floor/stone,
 /area/event)
 "kiR" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -22545,7 +22541,6 @@
 	},
 /area/event)
 "lhx" = (
-/obj/effect/decal/cleanable/dirt/dust,
 /turf/closed/indestructible/reinforced,
 /area/event)
 "lhE" = (
@@ -23022,7 +23017,7 @@
 /area/event)
 "lso" = (
 /obj/structure/falsewall/wood,
-/turf/open/space/basic,
+/turf/open/floor/iron/dark/textured,
 /area/event)
 "lsp" = (
 /obj/effect/turf_decal/siding/wood{
@@ -30063,9 +30058,8 @@
 /area/event)
 "oFz" = (
 /obj/structure/bed/dogbed,
-/mob/living/basic/pet/dog/bullterrier{
-	buckled = 1
-	},
+/mob/living/basic/pet/dog/bullterrier,
+/obj/effect/mapping_helpers/buckle_bed
 /turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oFC" = (
@@ -31965,7 +31959,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 6
 	},
-/turf/open/space/basic,
+/turf/open/floor/iron/dark/textured,
 /area/event)
 "pGc" = (
 /obj/structure/table,
@@ -37141,7 +37135,7 @@
 /obj/structure/fence/cut/large{
 	dir = 4
 	},
-/turf/open/space/basic,
+/turf/open/floor/stone,
 /area/event)
 "sqt" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -39012,7 +39006,6 @@
 /turf/open/floor/stone,
 /area/event)
 "tfa" = (
-/obj/effect/decal/cleanable/cobweb,
 /turf/open/water,
 /area/event)
 "tfc" = (
@@ -39291,7 +39284,7 @@
 /area/event)
 "tmn" = (
 /obj/structure/bookcase/random,
-/turf/open/space/basic,
+/turf/open/floor/iron/dark/textured,
 /area/event)
 "tmr" = (
 /obj/item/plate_shard,
@@ -40871,7 +40864,7 @@
 /obj/item/clothing/head/collectable/paper{
 	pixel_y = 13
 	},
-/turf/open/space/basic,
+/turf/open/floor/iron/dark/textured,
 /area/event)
 "tZB" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -43171,7 +43164,6 @@
 /turf/open/floor/stone,
 /area/event)
 "vfg" = (
-/obj/effect/decal/cleanable/oil,
 /turf/closed/wall,
 /area/event)
 "vfh" = (
@@ -46482,7 +46474,7 @@
 /area/event)
 "wJB" = (
 /obj/structure/falsewall,
-/turf/open/space/basic,
+/turf/open/floor/iron/dark/textured,
 /area/event)
 "wJK" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -46741,7 +46733,7 @@
 /area/event)
 "wPA" = (
 /obj/machinery/door/airlock/grunge,
-/turf/open/space/basic,
+/turf/open/floor/iron/dark/textured,
 /area/event)
 "wPW" = (
 /obj/structure/sign/poster/official/dick_gum/directional/east,
