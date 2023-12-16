@@ -183,6 +183,7 @@
 
 /// Checks if the user should be given this tutorial
 /datum/tutorial_manager/proc/should_run(mob/user)
+	return FALSE
 	var/ckey = user.ckey
 
 	if (isnull(ckey))
