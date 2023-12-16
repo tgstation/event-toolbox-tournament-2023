@@ -321,7 +321,7 @@ GLOBAL_LIST_EMPTY(tournament_controllers)
 			continue
 
 		if (old_mob.stat <= CONSCIOUS)
-			old_mob.fully_heal(admin_revive = TRUE)
+			old_mob.fully_heal(ADMIN_HEAL_ALL)
 
 		old_mob.forceMove(old_mobs_loc[client])
 		old_mob.key = client?.key
