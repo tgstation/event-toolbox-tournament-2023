@@ -48,7 +48,7 @@
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/sign/poster/contraband/borg_fancy_2/directional/north,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "acd" = (
 /obj/effect/turf_decal/trimline/yellow/warning{
@@ -81,7 +81,7 @@
 	pixel_x = -8;
 	pixel_y = -9
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "adS" = (
 /obj/structure/chair/office/tactical{
@@ -95,7 +95,7 @@
 	dir = 5;
 	pixel_y = 3
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ael" = (
 /obj/effect/turf_decal/siding/wood{
@@ -165,7 +165,6 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
 	},
-/obj/item/storage/secure/safe/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/wood/large,
@@ -247,19 +246,19 @@
 "agO" = (
 /obj/structure/flora/rock/pile/jungle/style_3,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "agW" = (
 /obj/machinery/door/airlock/freezer,
 /turf/open/floor/iron/freezer,
 /area/event)
 "ahf" = (
-/obj/item/storage/secure/briefcase{
-	pixel_x = -3;
-	pixel_y = 19
+/obj/machinery/tournament_spawn/green{
+	arena_id = "a2"
 	},
-/turf/open/floor/iron/dark/herringbone,
-/area/event)
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/centcom/tdome/arena/team_prep)
 "ahy" = (
 /obj/structure/lattice/catwalk,
 /obj/structure/fans/tiny,
@@ -341,7 +340,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ajW" = (
 /obj/structure/fence/cut/medium{
@@ -378,7 +377,7 @@
 	pixel_x = -8;
 	pixel_y = 5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "akk" = (
 /obj/effect/turf_decal/siding/wood,
@@ -429,6 +428,12 @@
 /obj/item/trash/peanuts,
 /turf/open/floor/iron/dark/textured_edge,
 /area/event)
+"all" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/stone,
+/area/centcom/tdome/arena/team_prep)
 "alB" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -468,7 +473,7 @@
 	},
 /obj/effect/food_cart_stand,
 /obj/machinery/food_cart,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "alX" = (
 /obj/machinery/light_switch/directional/south,
@@ -525,7 +530,7 @@
 /obj/structure/closet/crate/trashcart/filled,
 /obj/effect/turf_decal/box/red,
 /obj/effect/decal/cleanable/food/tomato_smudge,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "anW" = (
 /obj/machinery/door/airlock/multi_tile/public/glass,
@@ -534,11 +539,11 @@
 /area/event)
 "aoo" = (
 /obj/structure/flora/bush/stalky,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aoy" = (
 /obj/structure/fluff{
-	color = list(77, 77, 77, 150, 150, 150, 28, 28, 28, 0, 0, 0);
+	color = null;
 	deconstructible = 0;
 	desc = "This one needs maintenance.";
 	dir = 4;
@@ -549,7 +554,7 @@
 	pixel_y = 20
 	},
 /obj/structure/fluff{
-	color = list(77, 77, 77, 150, 150, 150, 28, 28, 28, 0, 0, 0);
+	color = null;
 	deconstructible = 0;
 	desc = "This one needs maintenance.";
 	dir = 4;
@@ -612,7 +617,7 @@
 /obj/structure/flora/tree/pine{
 	pixel_x = -27
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aqk" = (
 /obj/effect/decal/cleanable/crayon{
@@ -634,15 +639,6 @@
 	pixel_y = -3
 	},
 /turf/open/floor/iron/freezer,
-/area/event)
-"arj" = (
-/obj/structure/stairs/wood{
-	dir = 4
-	},
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/space/basic,
 /area/event)
 "arn" = (
 /obj/effect/spawner/structure/window,
@@ -778,7 +774,7 @@
 /obj/effect/spawner/random/trash/food_packaging,
 /obj/effect/spawner/random/trash/garbage,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "auX" = (
 /obj/item/clothing/mask/gas,
@@ -806,7 +802,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "avv" = (
 /obj/structure/table/glass,
@@ -1010,7 +1006,7 @@
 /obj/item/plate/small{
 	pixel_y = 3
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "azC" = (
 /obj/effect/turf_decal/siding/wood/corner,
@@ -1103,7 +1099,7 @@
 /area/event)
 "aBh" = (
 /obj/structure/sign/poster/official/boombox/directional/east,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aBB" = (
 /obj/effect/turf_decal/siding/wood{
@@ -1158,7 +1154,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aCJ" = (
 /obj/effect/turf_decal/siding{
@@ -1223,8 +1219,14 @@
 /area/event)
 "aEM" = (
 /obj/item/kirbyplants/organic/plant22,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
+"aES" = (
+/obj/effect/landmark/arena/end{
+	arena_id = "a2"
+	},
+/turf/open/floor/plating,
+/area/centcom/tdome/arena)
 "aEU" = (
 /obj/item/taperecorder{
 	pixel_x = 10;
@@ -1326,6 +1328,13 @@
 	},
 /turf/open/floor/stone,
 /area/event)
+"aHi" = (
+/obj/effect/oneway{
+	dir = 4;
+	id_tag = "a4"
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena/team_prep)
 "aHj" = (
 /obj/structure/fence{
 	dir = 4;
@@ -1392,7 +1401,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aKx" = (
 /obj/structure/flora/tree/jungle/style_random,
@@ -1464,7 +1473,7 @@
 	pixel_x = 10;
 	pixel_y = 12
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aLf" = (
 /obj/effect/turf_decal/siding/wood{
@@ -1499,7 +1508,7 @@
 /obj/effect/turf_decal/trimline/dark/warning{
 	dir = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aMp" = (
 /obj/structure/window/reinforced/spawner/directional/south,
@@ -1528,7 +1537,7 @@
 	pixel_x = -4;
 	pixel_y = -3
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aMP" = (
 /obj/structure/hedge,
@@ -1573,7 +1582,7 @@
 /area/event)
 "aOg" = (
 /obj/effect/decal/cleanable/glass,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aOp" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -1586,15 +1595,6 @@
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 8
 	},
-/area/event)
-"aOx" = (
-/obj/structure/stairs/wood{
-	dir = 1
-	},
-/obj/structure/curtain/cloth{
-	color = "#993333"
-	},
-/turf/open/space/basic,
 /area/event)
 "aOB" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -1621,15 +1621,6 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/wood/large,
 /area/event)
-"aOV" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/floor/iron/dark/textured,
-/area/event)
 "aPb" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
@@ -1643,7 +1634,7 @@
 	pixel_x = -9;
 	pixel_y = -24
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aPk" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -1658,8 +1649,15 @@
 	pixel_x = 10;
 	pixel_y = -9
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
+"aQa" = (
+/obj/machinery/tournament_spawn/green{
+	arena_id = "a3"
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/centcom/tdome/arena/team_prep)
 "aQh" = (
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/effect/turf_decal/trimline/blue/line{
@@ -1792,7 +1790,7 @@
 	pixel_x = -7;
 	pixel_y = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aSV" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
@@ -1808,7 +1806,7 @@
 "aTf" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/fluff/paper/stack,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aTF" = (
 /obj/structure/lattice/catwalk,
@@ -1855,7 +1853,7 @@
 /obj/item/training_toolbox{
 	icon_state = "blue"
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aUT" = (
 /obj/effect/turf_decal/siding/wideplating_new/corner{
@@ -1905,7 +1903,7 @@
 /obj/structure/fence/corner{
 	dir = 9
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aWo" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -1919,12 +1917,19 @@
 	pixel_y = 8
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aWr" = (
 /obj/machinery/door/airlock/grunge,
 /turf/open/floor/iron/grimy,
 /area/event)
+"aWD" = (
+/obj/machinery/tournament_spawn/green{
+	arena_id = "a4"
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/centcom/tdome/arena/team_prep)
 "aWU" = (
 /obj/effect/mapping_helpers/broken_floor{
 	icon_state = "wood_parquet-broken4"
@@ -1957,7 +1962,7 @@
 /area/event)
 "aXM" = (
 /obj/machinery/atmospherics/components/tank,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "aXW" = (
 /obj/item/reagent_containers/cup/glass/bottle/hooch{
@@ -2131,7 +2136,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/structure/flora/rock/pile/style_2,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "bbX" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -2370,7 +2375,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "bip" = (
 /obj/effect/mapping_helpers/broken_floor,
@@ -2423,13 +2428,13 @@
 /obj/item/kirbyplants/organic/plant21{
 	pixel_y = 16
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "bjk" = (
 /obj/structure/flora/tree/dead/style_6,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "bjo" = (
 /obj/machinery/light/directional/east,
@@ -2470,7 +2475,7 @@
 	pixel_x = 10;
 	pixel_y = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "blC" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -2639,7 +2644,7 @@
 /obj/structure/curtain/cloth{
 	color = "#666666"
 	},
-/turf/open/floor/iron/stairs/medium{
+/turf/open/floor/iron/stairs{
 	color = "#404040";
 	dir = 1
 	},
@@ -2791,11 +2796,11 @@
 	pixel_y = -11
 	},
 /obj/structure/flora/tree/dead/style_5,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "brh" = (
 /obj/structure/flora/tree/dead/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "brt" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -2891,7 +2896,7 @@
 /obj/structure/railing/corner{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "btk" = (
 /obj/structure/railing/corner{
@@ -2910,7 +2915,7 @@
 /obj/structure/closet/crate/trashcart/filled,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/turf_decal/box/red,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "btw" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
@@ -2963,7 +2968,7 @@
 "buT" = (
 /obj/structure/closet/crate/trashcart,
 /obj/effect/spawner/random/trash/garbage,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "buU" = (
 /obj/structure/closet/crate/cardboard/mothic{
@@ -3005,7 +3010,7 @@
 /area/event)
 "bwd" = (
 /obj/effect/decal/remains/human,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "bwz" = (
 /obj/effect/turf_decal/tile/dark/fourcorners,
@@ -3081,6 +3086,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/grimy,
 /area/event)
+"byS" = (
+/obj/effect/oneway{
+	dir = 4;
+	id_tag = "a1"
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena/team_prep)
 "bzv" = (
 /obj/structure/disposalpipe/segment{
 	dir = 5
@@ -3420,7 +3432,7 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "bHB" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -3647,7 +3659,7 @@
 /area/event)
 "bNb" = (
 /obj/effect/decal/cleanable/ants,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "bNZ" = (
 /obj/machinery/light/floor,
@@ -3789,7 +3801,7 @@
 	pixel_x = 3;
 	pixel_y = -6
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "bTy" = (
 /obj/structure/window/reinforced/spawner/directional/south,
@@ -3808,7 +3820,7 @@
 "bUj" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/structure/railing,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "bUz" = (
 /obj/effect/turf_decal/siding/wood{
@@ -4036,7 +4048,7 @@
 /obj/item/camera/detective{
 	pixel_x = -9
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cat" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
@@ -4179,7 +4191,7 @@
 	dir = 8
 	},
 /obj/structure/flora/tree/jungle/style_6,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cde" = (
 /obj/structure/fence{
@@ -4368,7 +4380,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ciz" = (
 /obj/effect/turf_decal/siding/wood{
@@ -4490,7 +4502,7 @@
 "cny" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/flora/bush/fullgrass/style_2,
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cnN" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -4505,7 +4517,7 @@
 "cov" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/item/trash/can/food/pine_nuts,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "coH" = (
 /obj/structure/sign/poster/official/pda_ad/directional/east,
@@ -4516,7 +4528,7 @@
 /obj/structure/curtain/cloth{
 	color = "#666666"
 	},
-/turf/open/floor/iron/stairs/medium{
+/turf/open/floor/iron/stairs{
 	color = "#404040";
 	dir = 1
 	},
@@ -4571,7 +4583,7 @@
 	layer = 3.2;
 	pixel_x = -8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cru" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
@@ -4659,7 +4671,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ctg" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -4777,7 +4789,7 @@
 /obj/effect/turf_decal/trimline/dark_red/warning{
 	dir = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cwc" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -4839,7 +4851,7 @@
 "cxb" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/flora/bush/grassy/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cxi" = (
 /obj/effect/turf_decal/tile/yellow{
@@ -4865,7 +4877,7 @@
 /area/event)
 "cxM" = (
 /obj/structure/flora/bush/lavendergrass,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cxQ" = (
 /obj/structure/sign/clock/directional/south,
@@ -4949,7 +4961,7 @@
 /area/event)
 "czt" = (
 /obj/structure/flora/tree/pine/style_3,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "czx" = (
 /obj/effect/turf_decal/siding/wood{
@@ -5044,7 +5056,7 @@
 "cAS" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/trash/popcorn/salty,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cBa" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/west,
@@ -5159,7 +5171,7 @@
 /area/event)
 "cCU" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cDh" = (
 /obj/structure/chair/sofa/left/brown{
@@ -5175,7 +5187,7 @@
 /area/event)
 "cDp" = (
 /obj/structure/flora/rock/pile/jungle/style_4,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cDv" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -5207,10 +5219,6 @@
 	dir = 1
 	},
 /turf/open/floor/iron,
-/area/event)
-"cEr" = (
-/obj/structure/fake_stairs/wood/directional/east,
-/turf/open/space/basic,
 /area/event)
 "cEt" = (
 /obj/structure/railing/corner/end{
@@ -5320,7 +5328,7 @@
 	pixel_x = -7;
 	pixel_y = 5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cGu" = (
 /obj/machinery/mineral/processing_unit,
@@ -5531,13 +5539,6 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/stone,
 /area/event)
-"cMR" = (
-/obj/structure/railing,
-/obj/structure/fake_stairs/wood/directional/east{
-	dir = 8
-	},
-/turf/open/space/basic,
-/area/event)
 "cMZ" = (
 /obj/structure/table/wood/fancy,
 /obj/effect/decal/cleanable/dirt,
@@ -5565,7 +5566,7 @@
 	pixel_y = -5
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cOH" = (
 /obj/effect/turf_decal/tile/yellow/half/contrasted{
@@ -5598,7 +5599,7 @@
 	layer = 3.0
 	},
 /obj/structure/sign/calendar/directional/west,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cPA" = (
 /obj/structure/chair/sofa/corp/left{
@@ -5615,7 +5616,7 @@
 	pixel_x = -15;
 	pixel_y = -14
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cQg" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -5790,6 +5791,13 @@
 	color = "#B8B398"
 	},
 /area/event)
+"cTn" = (
+/obj/effect/oneway{
+	dir = 8;
+	id_tag = "a2"
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena/team_prep)
 "cTJ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/engine,
@@ -5798,7 +5806,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "cTQ" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -5862,8 +5870,15 @@
 /area/event)
 "cVt" = (
 /obj/structure/fence/cut,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
+"cVB" = (
+/obj/machinery/tournament_spawn/red{
+	arena_id = "a3"
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/centcom/tdome/arena/team_prep)
 "cVQ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/item/grown/bananapeel{
@@ -6111,7 +6126,7 @@
 /obj/structure/curtain/cloth{
 	color = "#666666"
 	},
-/turf/open/floor/iron/stairs/medium{
+/turf/open/floor/iron/stairs{
 	color = "#404040";
 	dir = 1
 	},
@@ -6147,10 +6162,6 @@
 	pixel_x = -2;
 	pixel_y = 16
 	},
-/turf/open/floor/stone,
-/area/event)
-"dcm" = (
-/obj/structure/stairs/stone,
 /turf/open/floor/stone,
 /area/event)
 "dcu" = (
@@ -6453,7 +6464,7 @@
 /area/event)
 "dio" = (
 /obj/structure/fermenting_barrel,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "diz" = (
 /obj/structure/window/reinforced/spawner/directional/north,
@@ -6481,7 +6492,7 @@
 	pixel_x = -4;
 	pixel_y = -3
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "djb" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -6539,7 +6550,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/end{
 	dir = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dlb" = (
 /obj/structure/fireaxecabinet/empty{
@@ -6726,7 +6737,7 @@
 	pixel_x = 3;
 	pixel_y = -6
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dqL" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -6846,7 +6857,7 @@
 /area/event)
 "dsK" = (
 /obj/structure/hedge,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dsP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -6953,7 +6964,7 @@
 	pixel_x = 1;
 	pixel_y = 13
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "duP" = (
 /obj/structure/chair/stool/directional/east,
@@ -6969,14 +6980,14 @@
 	pixel_x = 1;
 	pixel_y = -5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "duZ" = (
 /obj/structure/frame/machine{
 	anchored = 1;
 	icon_state = "box_1"
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dvh" = (
 /obj/structure/railing{
@@ -7028,6 +7039,9 @@
 /obj/effect/turf_decal/trimline/dark/warning,
 /turf/open/floor/iron/dark/textured_large,
 /area/event)
+"dxs" = (
+/turf/closed/indestructible/riveted,
+/area/centcom/tdome/arena/team_prep)
 "dxE" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 5
@@ -7135,7 +7149,7 @@
 	pixel_x = 9;
 	pixel_y = 10
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dAf" = (
 /obj/structure/sign/poster/official/space_cops/directional/east,
@@ -7235,7 +7249,7 @@
 /area/event)
 "dDv" = (
 /obj/structure/sign/warning/yes_smoking/circle/directional/north,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dDx" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -7321,7 +7335,7 @@
 /obj/effect/spawner/random/trash/food_packaging,
 /obj/effect/spawner/random/trash/garbage,
 /obj/structure/sign/poster/ripped/directional/east,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dFB" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -7459,7 +7473,7 @@
 /area/event)
 "dHQ" = (
 /obj/structure/fluff{
-	color = list(77, 77, 77, 150, 150, 150, 28, 28, 28, 0, 0, 0);
+	color = null;
 	desc = "This one needs maintenance.";
 	dir = 4;
 	icon = 'icons/obj/vehicles.dmi';
@@ -7492,12 +7506,12 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/maint,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dIp" = (
 /obj/structure/flora/tree/stump,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dIW" = (
 /obj/structure/sign/poster/contraband/random/directional/east,
@@ -7513,7 +7527,7 @@
 	pixel_y = 7
 	},
 /obj/effect/decal/cleanable/ash,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dKj" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -7560,7 +7574,7 @@
 	pixel_y = 6
 	},
 /obj/structure/table/reinforced/titaniumglass,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dKZ" = (
 /obj/structure/lattice/catwalk,
@@ -7639,7 +7653,7 @@
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dMS" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -7673,11 +7687,11 @@
 "dOD" = (
 /obj/structure/closet/crate/trashcart,
 /obj/structure/tubes,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dOM" = (
 /obj/effect/decal/cleanable/ash,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dPb" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/end{
@@ -7686,7 +7700,7 @@
 /obj/structure/flora/bush/sparsegrass{
 	pixel_x = -20
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dPn" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -7699,7 +7713,7 @@
 	pixel_x = -2;
 	pixel_y = -3
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dPC" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
@@ -7743,7 +7757,7 @@
 /area/event)
 "dPQ" = (
 /obj/structure/railing/corner/end/flip,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dPW" = (
 /obj/effect/turf_decal/tile/dark_red,
@@ -7825,6 +7839,13 @@
 	dir = 1
 	},
 /turf/open/floor/carpet/black,
+/area/event)
+"dSN" = (
+/obj/effect/oneway{
+	dir = 8;
+	id_tag = "a1"
+	},
+/turf/open/floor/iron/dark/smooth_large,
 /area/event)
 "dTa" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -7924,7 +7945,7 @@
 /obj/structure/flora/rock/pile{
 	pixel_x = 11
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dWf" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -7991,7 +8012,7 @@
 	pixel_x = -10;
 	pixel_y = 11
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dXU" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -8065,7 +8086,7 @@
 /obj/effect/turf_decal/siding{
 	color = "#999999"
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "dYX" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
@@ -8152,7 +8173,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ebB" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -8275,7 +8296,7 @@
 /area/event)
 "eeE" = (
 /obj/structure/closet/crate/bin,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "eeX" = (
 /obj/effect/turf_decal/siding/wood{
@@ -8285,7 +8306,7 @@
 /obj/effect/turf_decal/siding{
 	color = "#999999"
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "efp" = (
 /obj/structure/hedge,
@@ -8497,7 +8518,7 @@
 "elV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/kirbyplants/organic/plant22,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "emg" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -8530,16 +8551,10 @@
 	},
 /turf/open/floor/iron/smooth_edge,
 /area/event)
-"emM" = (
-/obj/structure/railing,
-/turf/open/floor/holofloor/stairs/medium{
-	dir = 8
-	},
-/area/event)
 "emW" = (
 /obj/machinery/light/floor,
 /obj/effect/turf_decal/trimline/dark,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "enc" = (
 /obj/effect/turf_decal/siding/wood{
@@ -8550,7 +8565,7 @@
 	color = "#999999";
 	dir = 1
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "enm" = (
 /obj/effect/decal/cleanable/glass,
@@ -8562,7 +8577,7 @@
 "enL" = (
 /obj/structure/railing,
 /obj/machinery/status_display/evac/directional/north,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "enU" = (
 /obj/structure/fans/tiny,
@@ -8685,7 +8700,7 @@
 	pixel_x = -1;
 	pixel_y = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "esJ" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -8709,13 +8724,13 @@
 /obj/structure/flora/bush/sparsegrass{
 	pixel_x = -20
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "etq" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ets" = (
 /obj/effect/turf_decal/siding/wood{
@@ -8806,7 +8821,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 9
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "evo" = (
 /obj/effect/turf_decal/siding/wood{
@@ -8884,12 +8899,12 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ewn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ewp" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner,
@@ -8909,7 +8924,7 @@
 /obj/item/reagent_containers/cup/bucket/wooden{
 	pixel_y = 16
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "exD" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -8923,10 +8938,6 @@
 "exH" = (
 /obj/item/storage/fish_case{
 	pixel_x = 9
-	},
-/obj/item/storage/secure/briefcase{
-	pixel_x = 11;
-	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/turf_decal/siding/wood{
@@ -9045,13 +9056,13 @@
 	pixel_x = -12;
 	pixel_y = 9
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ezn" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/sign/warning/no_smoking/circle/directional/north,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ezt" = (
 /obj/structure/chair/plastic,
@@ -9081,7 +9092,7 @@
 	pixel_x = 10;
 	pixel_y = -3
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "eAx" = (
 /obj/structure/table/wood,
@@ -9112,6 +9123,15 @@
 /obj/structure/rack,
 /turf/open/floor/iron/dark/textured,
 /area/event)
+"eBG" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/table/wood/fancy/purple,
+/obj/item/food/roti_john,
+/turf/open/floor/wood/large,
+/area/event)
 "eBP" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -9120,7 +9140,7 @@
 	pixel_x = 4;
 	pixel_y = 11
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "eCC" = (
 /obj/effect/decal/cleanable/dirt,
@@ -9273,7 +9293,7 @@
 "eHP" = (
 /obj/item/food/deadmouse/moldy,
 /obj/structure/bed/maint,
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "eHS" = (
 /obj/machinery/portable_atmospherics/canister,
@@ -9351,7 +9371,7 @@
 	anchored = 1;
 	icon_state = "box_1"
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "eJb" = (
 /obj/structure/fence{
@@ -9391,6 +9411,12 @@
 	},
 /turf/open/floor/wood,
 /area/event)
+"eKl" = (
+/obj/effect/landmark/arena_eye{
+	arena_id = "a4"
+	},
+/turf/open/floor/plating,
+/area/centcom/tdome/arena)
 "eKt" = (
 /obj/effect/turf_decal/siding/dark{
 	dir = 8
@@ -9449,7 +9475,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 9
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "eLX" = (
 /obj/structure/closet/crate/trashcart{
@@ -9462,28 +9488,19 @@
 	pixel_y = 2
 	},
 /obj/item/trash/sosjerky,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "eMc" = (
 /obj/item/reagent_containers/cup/glass/bottle/hooch{
 	pixel_x = -15;
 	pixel_y = -8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "eMh" = (
 /obj/structure/window/reinforced/tinted/frosted/spawner/directional/east,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/grimy,
-/area/event)
-"eMl" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/space/basic,
 /area/event)
 "eMJ" = (
 /obj/effect/turf_decal/siding/wood{
@@ -9739,7 +9756,7 @@
 	color = "#3d2215";
 	dir = 4
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "eSx" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -9805,7 +9822,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "eUd" = (
 /obj/effect/turf_decal/tile/dark/fourcorners,
@@ -9895,7 +9912,7 @@
 	layer = 3.1
 	},
 /obj/structure/flora/bush/fullgrass,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "eWi" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -10036,7 +10053,7 @@
 	dir = 1
 	},
 /obj/structure/flora/tree/dead/style_4,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "eZx" = (
 /obj/structure/railing,
@@ -10280,7 +10297,7 @@
 	pixel_y = 6
 	},
 /obj/structure/sign/warning/no_smoking/circle/directional/north,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "feM" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
@@ -10368,7 +10385,7 @@
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/chair/stool/directional/west,
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "fgT" = (
 /obj/structure/fluff/drake_statue{
@@ -10473,7 +10490,7 @@
 /area/event)
 "fiV" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "fjt" = (
 /obj/structure/stairs_frame,
@@ -10502,7 +10519,7 @@
 "fjU" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/trash/mess,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "fkw" = (
 /obj/structure/table/wood,
@@ -10556,7 +10573,7 @@
 "flP" = (
 /obj/structure/hedge,
 /obj/effect/turf_decal/siding/wood,
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "flX" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -10794,6 +10811,13 @@
 /obj/effect/spawner/random/food_or_drink/refreshing_beverage,
 /turf/open/floor/wood/tile,
 /area/event)
+"frC" = (
+/obj/effect/oneway{
+	dir = 4;
+	id_tag = "a3"
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena/team_prep)
 "frF" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/machinery/chem_dispenser/drinks/fullupgrade,
@@ -10870,7 +10894,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "fuA" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -10883,6 +10907,13 @@
 	},
 /turf/open/floor/iron/dark/herringbone,
 /area/event)
+"fuQ" = (
+/obj/effect/oneway{
+	dir = 8;
+	id_tag = "a1"
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena/team_prep)
 "fvf" = (
 /obj/effect/turf_decal/stripes/white/full{
 	color = "#666666"
@@ -10957,7 +10988,7 @@
 	dir = 4
 	},
 /obj/structure/grille/broken,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "fxj" = (
 /obj/structure/closet/crate/bin,
@@ -11018,6 +11049,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/stone,
 /area/event)
+"fyR" = (
+/obj/item/trash/popcorn,
+/turf/open/floor/catwalk_floor,
+/area/event)
 "fyW" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/structure/chair/sofa/corp,
@@ -11067,7 +11102,7 @@
 /area/event)
 "fAj" = (
 /obj/structure/flora/bush/sparsegrass/style_2,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "fAk" = (
 /obj/structure/sink/directional/west,
@@ -11479,7 +11514,7 @@
 	dir = 6
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "fJX" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -11661,7 +11696,7 @@
 	pixel_x = 9;
 	pixel_y = 5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "fOR" = (
 /obj/structure/fence/corner{
@@ -11766,7 +11801,7 @@
 /area/event)
 "fSd" = (
 /obj/effect/decal/cleanable/cobweb,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "fSl" = (
 /obj/structure/chair/sofa/bench,
@@ -11778,7 +11813,7 @@
 	dir = 1
 	},
 /obj/structure/flora/bush/sparsegrass/style_2,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "fSD" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -11786,6 +11821,12 @@
 	},
 /turf/open/floor/wood,
 /area/event)
+"fTa" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/stone,
+/area/centcom/tdome/arena/team_prep)
 "fTB" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 9
@@ -11965,10 +12006,6 @@
 /turf/open/floor/iron/small{
 	color = "#B8B398"
 	},
-/area/event)
-"fYE" = (
-/obj/structure/stairs/stone,
-/turf/open/space/basic,
 /area/event)
 "fYS" = (
 /obj/effect/decal/cleanable/dirt,
@@ -12325,7 +12362,7 @@
 /area/event)
 "ggK" = (
 /obj/structure/flora/bush/sparsegrass/style_3,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ghy" = (
 /obj/effect/turf_decal/siding/wood{
@@ -12397,7 +12434,7 @@
 	dir = 10
 	},
 /obj/structure/flora/bush/lavendergrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "giu" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -12577,7 +12614,7 @@
 	pixel_x = 2;
 	pixel_y = -4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "glO" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -12628,7 +12665,7 @@
 	dir = 5;
 	pixel_y = -12
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "gmv" = (
 /obj/structure/fans/tiny{
@@ -12655,7 +12692,7 @@
 	pixel_y = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "gmS" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -12742,7 +12779,7 @@
 	pixel_x = -8;
 	pixel_y = 9
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "got" = (
 /obj/structure/table/reinforced/plastitaniumglass,
@@ -12817,7 +12854,7 @@
 	pixel_y = 11
 	},
 /obj/effect/decal/cleanable/ash,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "gqu" = (
 /obj/machinery/vending/cigarette,
@@ -12852,7 +12889,7 @@
 	anchored = 1;
 	icon_state = "box_1"
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "grX" = (
 /obj/structure/sign/warning/doors/directional/south,
@@ -13121,7 +13158,7 @@
 /area/event)
 "gzD" = (
 /obj/structure/flora/bush/fullgrass,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "gzL" = (
 /obj/effect/turf_decal/stripes/white/full{
@@ -13165,7 +13202,7 @@
 	pixel_x = 31;
 	pixel_y = 9
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "gBG" = (
 /obj/structure/showcase/machinery/tv/broken,
@@ -13259,7 +13296,7 @@
 	dir = 10
 	},
 /obj/structure/marker_beacon/cerulean,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "gEy" = (
 /obj/structure/disposalpipe/segment{
@@ -13548,7 +13585,7 @@
 	dir = 4
 	},
 /obj/machinery/vending/cigarette,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "gNp" = (
 /obj/effect/turf_decal/siding/wideplating_new/corner,
@@ -13568,7 +13605,7 @@
 	pixel_y = -24
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "gNH" = (
 /obj/effect/turf_decal/stripes{
@@ -13678,7 +13715,7 @@
 /obj/structure/fence/corner{
 	dir = 10
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "gQe" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -13866,7 +13903,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "gUZ" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -13908,7 +13945,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "gWP" = (
 /obj/effect/decal/cleanable/wrapping/pinata,
@@ -13923,7 +13960,7 @@
 	pixel_x = 8;
 	pixel_y = -3
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "gXi" = (
 /obj/structure/hedge,
@@ -13986,7 +14023,7 @@
 	pixel_x = 8;
 	pixel_y = -5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "gYs" = (
 /obj/effect/turf_decal/trimline/dark/filled/line{
@@ -14049,7 +14086,7 @@
 /area/event)
 "gZE" = (
 /obj/structure/fence/cut/large,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "gZV" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -14187,7 +14224,7 @@
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "hcO" = (
 /obj/effect/turf_decal/siding/dark{
@@ -14325,7 +14362,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "hfH" = (
 /obj/item/trash/popcorn,
@@ -14564,12 +14601,6 @@
 	dir = 8
 	},
 /turf/open/floor/wood/large,
-/area/event)
-"hkV" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/turf/open/floor/stone,
 /area/event)
 "hlu" = (
 /obj/effect/turf_decal/tile/dark/fourcorners,
@@ -14949,7 +14980,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 6
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "htn" = (
 /obj/effect/turf_decal/stripes/line,
@@ -15024,7 +15055,7 @@
 	pixel_y = 11
 	},
 /obj/effect/decal/cleanable/ash,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "huZ" = (
 /obj/machinery/recycler{
@@ -15095,7 +15126,7 @@
 	dir = 4;
 	pixel_x = -15
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "hyp" = (
 /obj/structure/chair/sofa/bench{
@@ -15154,12 +15185,11 @@
 /turf/open/floor/iron/dark/textured,
 /area/event)
 "hAz" = (
-/obj/structure/railing/corner,
-/turf/closed/indestructible/riveted,
-/area/event)
+/turf/open/floor/stone,
+/area/centcom/tdome/arena/team_prep)
 "hAG" = (
 /obj/structure/chair/stool/directional/north,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "hBb" = (
 /obj/machinery/computer/operating{
@@ -15693,7 +15723,7 @@
 	pixel_x = -10;
 	pixel_y = 5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "hJy" = (
 /obj/effect/turf_decal/siding/thinplating_new/corner{
@@ -16034,15 +16064,13 @@
 /turf/open/misc/grass/jungle,
 /area/event)
 "hTz" = (
-/obj/item/storage/fish_case{
-	pixel_x = 9
+/obj/structure/rack,
+/obj/effect/landmark/toolbox{
+	arena_id = "center";
+	team_id = "green"
 	},
-/obj/item/storage/secure/briefcase{
-	pixel_x = 11;
-	pixel_y = 6
-	},
-/turf/open/floor/carpet/purple,
-/area/event)
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena/team_prep)
 "hTB" = (
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/structure/sign/clock/directional/north,
@@ -16065,7 +16093,7 @@
 	pixel_y = 27
 	},
 /obj/structure/flora/bush/grassy/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "hTT" = (
 /obj/effect/turf_decal/siding/thinplating_new/corner{
@@ -16147,7 +16175,7 @@
 "hWt" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/holosign/barrier/engineering,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "hWE" = (
 /obj/structure/dresser,
@@ -16162,11 +16190,13 @@
 /turf/open/floor/iron,
 /area/event)
 "hXp" = (
-/obj/structure/stairs/stone,
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/space/basic,
+/turf/open/floor/iron/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs_stone"
+	},
 /area/event)
 "hXQ" = (
 /obj/structure/hedge,
@@ -16283,7 +16313,7 @@
 	dir = 1
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "iaR" = (
 /obj/effect/turf_decal/siding/wood,
@@ -16434,7 +16464,7 @@
 	pixel_x = -1;
 	pixel_y = -15
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ifr" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
@@ -16447,7 +16477,7 @@
 	pixel_y = -3
 	},
 /obj/effect/decal/cleanable/glass,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ifJ" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -16467,7 +16497,7 @@
 /obj/item/trash/can{
 	pixel_y = 14
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "igf" = (
 /obj/structure/table/reinforced,
@@ -16607,7 +16637,7 @@
 /obj/structure/chair/sofa/bench/right{
 	dir = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ilU" = (
 /obj/effect/turf_decal/bot,
@@ -16643,7 +16673,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ioK" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -16721,7 +16751,7 @@
 	pixel_x = 16;
 	pixel_y = -2
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "iqR" = (
 /obj/effect/turf_decal/siding/wood{
@@ -16841,7 +16871,7 @@
 	pixel_x = 10;
 	pixel_y = -15
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "itp" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -17080,7 +17110,7 @@
 /area/event)
 "iyS" = (
 /obj/structure/chair/stool/directional/south,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "izn" = (
 /obj/effect/turf_decal/weather/dirt,
@@ -17342,7 +17372,7 @@
 /area/event)
 "iGy" = (
 /obj/machinery/atmospherics/components/binary/valve,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "iGN" = (
 /obj/structure/fence/cut/medium{
@@ -17398,7 +17428,7 @@
 	dir = 10
 	},
 /obj/structure/flora/bush/sparsegrass/style_2,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "iIg" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -17411,7 +17441,7 @@
 	pixel_x = -4;
 	pixel_y = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "iIs" = (
 /obj/effect/turf_decal/weather/dirt,
@@ -17488,7 +17518,7 @@
 	pixel_x = -13;
 	pixel_y = 7
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "iKo" = (
 /obj/effect/turf_decal/siding/wood{
@@ -17533,7 +17563,7 @@
 	pixel_x = -10;
 	pixel_y = 5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "iLc" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -17591,7 +17621,7 @@
 	pixel_x = -8;
 	pixel_y = 6
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "iNn" = (
 /turf/closed/wall/mineral/titanium/survival,
@@ -17859,11 +17889,12 @@
 /turf/open/floor/stone,
 /area/event)
 "iUf" = (
-/obj/structure/fake_stairs/stone{
-	dir = 8
-	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/stone,
+/turf/open/floor/iron/stairs{
+	dir = 8;
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs_stone"
+	},
 /area/event)
 "iUO" = (
 /obj/structure/chair/office{
@@ -17880,7 +17911,7 @@
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "iVa" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -18183,7 +18214,7 @@
 	pixel_x = 15;
 	pixel_y = -6
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jai" = (
 /obj/item/chair/wood,
@@ -18518,7 +18549,7 @@
 	dir = 5
 	},
 /obj/structure/hedge,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jjD" = (
 /obj/structure/fence{
@@ -18633,6 +18664,10 @@
 /obj/structure/lattice/catwalk,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/event)
+"jot" = (
+/obj/effect/decal/cleanable/robot_debris/down,
+/turf/open/floor/catwalk_floor,
+/area/event)
 "joN" = (
 /obj/structure/railing{
 	dir = 1;
@@ -18653,7 +18688,7 @@
 	layer = 2.8;
 	pixel_x = -24
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jpt" = (
 /obj/structure/table/wood/fancy/blue,
@@ -18706,7 +18741,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jsx" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -18873,7 +18908,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jve" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -18913,10 +18948,6 @@
 	dir = 8
 	},
 /obj/structure/table/wood,
-/obj/item/paperwork,
-/obj/item/storage/secure/briefcase{
-	pixel_y = 10
-	},
 /turf/open/floor/wood/large,
 /area/event)
 "jvK" = (
@@ -19006,7 +19037,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 10
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jye" = (
 /obj/effect/decal/cleanable/vomit,
@@ -19099,7 +19130,6 @@
 	},
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/table/wood/fancy/purple,
-/obj/item/storage/secure/briefcase,
 /turf/open/floor/wood/large,
 /area/event)
 "jzV" = (
@@ -19119,7 +19149,7 @@
 "jAo" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/rock/pile/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jAq" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -19241,7 +19271,7 @@
 	pixel_x = 10;
 	pixel_y = -5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jDs" = (
 /obj/machinery/shower/directional/east,
@@ -19317,7 +19347,7 @@
 /obj/structure/sign/poster/quirk/security_logo{
 	pixel_y = 32
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jEN" = (
 /obj/effect/turf_decal/box/red/corners{
@@ -19414,6 +19444,13 @@
 /obj/structure/window/reinforced/spawner/directional/south,
 /turf/open/misc/grass/jungle,
 /area/event)
+"jHo" = (
+/obj/effect/oneway{
+	dir = 4;
+	id_tag = "a2"
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena/team_prep)
 "jHB" = (
 /obj/structure/railing,
 /obj/effect/turf_decal/delivery,
@@ -19505,6 +19542,13 @@
 	},
 /turf/open/floor/grass/lavaland,
 /area/event)
+"jJM" = (
+/obj/effect/turf_decal/trimline/yellow/warning{
+	dir = 1
+	},
+/obj/structure/holosign/barrier/engineering,
+/turf/open/floor/stone,
+/area/event)
 "jJN" = (
 /turf/open/floor/iron/dark/textured_half,
 /area/event)
@@ -19538,7 +19582,7 @@
 	color = "#333333";
 	dir = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jKq" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -19569,7 +19613,7 @@
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jKR" = (
 /obj/effect/turf_decal/trimline/yellow/arrow_cw{
@@ -19610,15 +19654,13 @@
 /turf/open/floor/wood/large,
 /area/event)
 "jLn" = (
-/obj/machinery/button/elevator/directional/north{
-	id = "carLift"
-	},
+/obj/machinery/button/elevator/directional/north,
 /obj/effect/turf_decal/trimline/yellow/warning,
 /turf/open/floor/stone,
 /area/event)
 "jLQ" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jMg" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -19673,7 +19715,7 @@
 /area/event)
 "jOQ" = (
 /obj/structure/fence,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jOX" = (
 /obj/structure/chair/sofa/left/maroon{
@@ -19724,7 +19766,7 @@
 /area/event)
 "jQH" = (
 /obj/structure/chair/stool/directional/west,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jQI" = (
 /obj/machinery/plumbing/growing_vat{
@@ -19806,14 +19848,14 @@
 "jSp" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/structure/flora/tree/dead/style_2,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jSF" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
 /obj/structure/holosign/barrier/engineering,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jTf" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -19840,7 +19882,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jTC" = (
 /obj/structure/table,
@@ -19979,7 +20021,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "jYQ" = (
 /obj/structure/chair/stool/bar/directional/north,
@@ -20112,7 +20154,7 @@
 	color = "#999999";
 	dir = 1
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kcV" = (
 /obj/structure/railing,
@@ -20166,17 +20208,6 @@
 /obj/structure/table/reinforced,
 /obj/item/reagent_containers/cup/bowl,
 /turf/open/floor/iron/cafeteria,
-/area/event)
-"kea" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/obj/structure/fluff/paper/stack{
-	dir = 1;
-	pixel_x = -1;
-	pixel_y = 8
-	},
-/turf/open/floor/stone,
 /area/event)
 "kef" = (
 /obj/effect/turf_decal/siding/wood{
@@ -20280,6 +20311,12 @@
 	},
 /turf/open/floor/stone,
 /area/event)
+"kgN" = (
+/obj/effect/landmark/arena/end{
+	arena_id = "a1"
+	},
+/turf/open/floor/plating,
+/area/centcom/tdome/arena)
 "kho" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small/dim/directional/south,
@@ -20570,7 +20607,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/item/trash/spacers_sidekick,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "klF" = (
 /obj/structure/fence{
@@ -20595,7 +20632,7 @@
 	pixel_x = 6;
 	pixel_y = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kmb" = (
 /obj/machinery/door/airlock/multi_tile/public/glass,
@@ -20639,7 +20676,7 @@
 	dir = 10
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "knL" = (
 /obj/structure/closet/cabinet{
@@ -20854,7 +20891,7 @@
 /obj/structure/chair/sofa/bench/left,
 /obj/structure/sign/poster/contraband/rip_badger/directional/north,
 /obj/item/reagent_containers/cup/glass/coffee,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "krn" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
@@ -20873,7 +20910,7 @@
 	pixel_y = 13
 	},
 /obj/structure/flora/rock/pile/style_2,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "krX" = (
 /obj/machinery/mineral/stacking_machine,
@@ -20910,7 +20947,15 @@
 	},
 /obj/structure/flora/rock/pile/style_2,
 /obj/item/trash/popcorn/caramel,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
+/area/event)
+"ksY" = (
+/obj/structure/railing/corner/end{
+	dir = 4
+	},
+/obj/structure/ladder/unbreakable,
+/obj/structure/ladder/unbreakable,
+/turf/open/floor/stone,
 /area/event)
 "kte" = (
 /obj/effect/turf_decal/stripes/white/full{
@@ -20997,7 +21042,7 @@
 	pixel_y = 4
 	},
 /obj/structure/sign/poster/ripped/directional/east,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kvy" = (
 /obj/structure/fluff/paper/stack{
@@ -21128,7 +21173,6 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
 	},
-/obj/item/storage/secure/safe/directional/north,
 /obj/item/storage/briefcase{
 	pixel_y = 13
 	},
@@ -21224,7 +21268,7 @@
 	pixel_x = 15;
 	pixel_y = -10
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kyc" = (
 /obj/effect/turf_decal/siding/thinplating_new{
@@ -21247,7 +21291,7 @@
 	dir = 9;
 	pixel_x = 5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kyN" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -21263,7 +21307,7 @@
 /obj/structure/chair/sofa/bench/right{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kzc" = (
 /obj/machinery/door/airlock/wood,
@@ -21434,11 +21478,11 @@
 	pixel_x = -15;
 	pixel_y = -14
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kDy" = (
 /obj/structure/flora/grass/jungle/b/style_5,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kDN" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -21510,17 +21554,17 @@
 	dir = 5
 	},
 /obj/structure/flora/bush/grassy/style_2,
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kFv" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/spawner/random/trash/mess,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kFx" = (
 /obj/item/toy/crayon/spraycan,
 /obj/structure/sign/poster/ripped/directional/east,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kFy" = (
 /obj/structure/sign/warning/chem_diamond/directional/west,
@@ -21560,7 +21604,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kHe" = (
 /obj/structure/noticeboard/directional/north,
@@ -21747,7 +21791,7 @@
 /obj/structure/chair/stool/directional/south{
 	pixel_y = 14
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kNJ" = (
 /obj/item/evidencebag,
@@ -21806,7 +21850,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kPi" = (
 /obj/structure/table,
@@ -21885,14 +21929,6 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/event)
-"kQN" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/turf/open/floor/holofloor/stairs/medium{
-	dir = 8
-	},
-/area/event)
 "kQQ" = (
 /obj/machinery/door/poddoor/shutters/window/preopen{
 	id = "factory_one"
@@ -21952,7 +21988,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/random/trash/mess,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kRL" = (
 /obj/machinery/light/directional/east,
@@ -22009,7 +22045,7 @@
 /obj/structure/sign/poster/quirk/security_logo{
 	pixel_y = 32
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kSR" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
@@ -22022,11 +22058,13 @@
 /turf/open/floor/iron/checker,
 /area/event)
 "kTj" = (
-/obj/structure/fake_stairs/wood/directional/east,
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/space/basic,
+/turf/open/floor/iron/stairs{
+	color = "#a67844";
+	dir = 8
+	},
 /area/event)
 "kTo" = (
 /obj/item/cigbutt{
@@ -22073,14 +22111,14 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 10
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kUk" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kUz" = (
 /obj/structure/sign/poster/contraband/calada_jelly/directional/west,
@@ -22106,7 +22144,7 @@
 	pixel_x = 7;
 	pixel_y = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kUD" = (
 /obj/structure/ore_box,
@@ -22156,7 +22194,7 @@
 "kWK" = (
 /obj/structure/chair/sofa/left/maroon,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kWX" = (
 /obj/effect/turf_decal/tile/dark_red,
@@ -22221,7 +22259,7 @@
 	pixel_x = -8;
 	pixel_y = -9
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "kYw" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -22331,7 +22369,7 @@
 	pixel_x = 21;
 	pixel_y = 15
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lcc" = (
 /obj/structure/hedge,
@@ -22460,7 +22498,7 @@
 	dir = 8
 	},
 /obj/structure/flora/tree/dead,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lgi" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -22474,7 +22512,7 @@
 	dir = 6
 	},
 /obj/structure/railing,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lgI" = (
 /obj/item/trash/raisins,
@@ -22603,7 +22641,7 @@
 	dir = 9
 	},
 /obj/structure/chair/sofa/bench/left,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lkr" = (
 /obj/structure/sign/warning/directional/east,
@@ -22630,7 +22668,7 @@
 	pixel_x = -1;
 	pixel_y = 3
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "llR" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -22664,7 +22702,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lmn" = (
 /obj/effect/decal/cleanable/dirt,
@@ -22713,13 +22751,12 @@
 /turf/open/floor/wood/large,
 /area/event)
 "lnm" = (
-/obj/structure/fake_stairs/wood{
-	dir = 1
-	},
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/wood/tile,
+/turf/open/floor/iron/stairs{
+	color = "#a67844"
+	},
 /area/event)
 "lnn" = (
 /obj/effect/turf_decal/caution/white,
@@ -22758,7 +22795,7 @@
 	pixel_x = -12;
 	pixel_y = 9
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lnY" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
@@ -22779,7 +22816,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 10
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "loh" = (
 /obj/effect/turf_decal/trimline/white,
@@ -22868,7 +22905,7 @@
 "lql" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner,
 /obj/structure/flora/tree/jungle/style_6,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lqr" = (
 /obj/item/cigbutt{
@@ -22879,7 +22916,7 @@
 	pixel_x = 4;
 	pixel_y = 3
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lqE" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -22996,7 +23033,7 @@
 	color = "#999999";
 	dir = 1
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lsD" = (
 /obj/effect/decal/cleanable/crayon{
@@ -23012,7 +23049,7 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/glass,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lsP" = (
 /turf/open/floor/catwalk_floor/iron_dark,
@@ -23197,7 +23234,7 @@
 	pixel_y = 32
 	},
 /obj/machinery/camera/autoname/directional/north,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lzr" = (
 /obj/structure/table,
@@ -23235,7 +23272,7 @@
 "lBn" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/structure/bed/maint,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lBw" = (
 /obj/effect/turf_decal/tile/yellow{
@@ -23332,7 +23369,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lEW" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -23407,18 +23444,6 @@
 /obj/effect/decal/cleanable/food/flour,
 /turf/open/floor/iron/dark,
 /area/event)
-"lGj" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 8
-	},
-/obj/structure/fluff/paper/stack{
-	dir = 1
-	},
-/turf/open/floor/stone,
-/area/event)
 "lGt" = (
 /obj/structure/fluff/paper/stack{
 	dir = 1;
@@ -23436,7 +23461,7 @@
 	pixel_x = -16;
 	pixel_y = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lGJ" = (
 /obj/effect/decal/cleanable/dirt,
@@ -23457,7 +23482,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lGV" = (
 /obj/machinery/door/airlock,
@@ -23496,6 +23521,12 @@
 	dir = 6
 	},
 /turf/open/floor/stone,
+/area/event)
+"lHJ" = (
+/obj/machinery/computer/tournament_controller{
+	arena_id = "a4"
+	},
+/turf/open/floor/iron/white,
 /area/event)
 "lHS" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
@@ -23611,7 +23642,7 @@
 	color = "#333333";
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lMe" = (
 /obj/structure/closet/crate/bin,
@@ -23783,7 +23814,7 @@
 	dir = 4;
 	pixel_x = -15
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lOE" = (
 /obj/effect/decal/cleanable/robot_debris/down,
@@ -23818,7 +23849,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lPM" = (
 /obj/machinery/light/directional/south,
@@ -23980,7 +24011,7 @@
 	pixel_y = 3
 	},
 /obj/item/kirbyplants/photosynthetic,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "lTQ" = (
 /obj/structure/chair/sofa/bench/left{
@@ -24207,7 +24238,7 @@
 "mbo" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/structure/sign/poster/ripped/directional/north,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mbu" = (
 /obj/structure/railing/corner/end,
@@ -24227,7 +24258,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mck" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -24261,14 +24292,15 @@
 /turf/open/floor/iron/dark,
 /area/event)
 "mdb" = (
-/obj/structure/stairs/stone{
-	dir = 4
-	},
 /obj/structure/railing,
 /obj/structure/railing/corner{
 	dir = 8
 	},
-/turf/open/floor/stone,
+/turf/open/floor/iron/stairs{
+	dir = 8;
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs_stone"
+	},
 /area/event)
 "mdt" = (
 /obj/effect/decal/cleanable/ash,
@@ -24327,7 +24359,7 @@
 	pixel_x = 13;
 	pixel_y = -11
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mfr" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -24359,7 +24391,7 @@
 /area/event)
 "mfD" = (
 /obj/structure/flora/tree/dead/style_5,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mfJ" = (
 /obj/effect/turf_decal/siding/wood{
@@ -24486,7 +24518,7 @@
 	pixel_y = 4
 	},
 /obj/item/cigbutt/cigarbutt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mhd" = (
 /obj/effect/turf_decal/siding/wood{
@@ -24664,6 +24696,7 @@
 /obj/structure/railing/corner/end{
 	dir = 4
 	},
+/obj/structure/ladder/unbreakable,
 /turf/open/floor/stone,
 /area/event)
 "mmc" = (
@@ -24684,7 +24717,7 @@
 	pixel_x = -6;
 	pixel_y = 7
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mmj" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -24720,7 +24753,7 @@
 	pixel_x = 9;
 	pixel_y = -5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mmE" = (
 /obj/structure/table,
@@ -24809,6 +24842,12 @@
 	},
 /turf/open/floor/wood/tile,
 /area/event)
+"mng" = (
+/obj/effect/landmark/arena_eye{
+	arena_id = "a2"
+	},
+/turf/open/floor/plating,
+/area/centcom/tdome/arena)
 "mnu" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 5
@@ -24896,7 +24935,7 @@
 /area/event)
 "mqM" = (
 /obj/structure/fake_stairs/directional/north,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mqR" = (
 /obj/structure/table/wood/fancy,
@@ -25021,7 +25060,7 @@
 /area/event)
 "msr" = (
 /obj/structure/chair/sofa/bench,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "msu" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -25087,7 +25126,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/fuel_pool,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mth" = (
 /obj/effect/turf_decal/siding/wood,
@@ -25297,7 +25336,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/fuel_pool,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mzl" = (
 /obj/structure/fluff/paper{
@@ -25440,7 +25479,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mDh" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
@@ -25590,7 +25629,7 @@
 	dir = 4;
 	pixel_y = -11
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mGe" = (
 /obj/structure/table/wood/poker,
@@ -25706,6 +25745,12 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /turf/open/floor/stone,
 /area/event)
+"mJA" = (
+/obj/effect/landmark/arena/start{
+	arena_id = "a2"
+	},
+/turf/open/floor/plating,
+/area/centcom/tdome/arena)
 "mJH" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 1
@@ -25814,7 +25859,7 @@
 	pixel_y = 6
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mMd" = (
 /obj/effect/turf_decal/trimline/dark/filled/line{
@@ -26073,10 +26118,6 @@
 /obj/item/storage/toolbox/emergency{
 	pixel_y = 10
 	},
-/obj/item/storage/secure/briefcase{
-	pixel_x = 11;
-	pixel_y = 6
-	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
@@ -26111,6 +26152,12 @@
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/wood/large,
 /area/event)
+"mRf" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 9
+	},
+/turf/open/floor/stone,
+/area/centcom/tdome/arena/team_prep)
 "mRo" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 10
@@ -26135,7 +26182,7 @@
 /area/event)
 "mRw" = (
 /obj/structure/flora/tree/jungle/small,
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mRy" = (
 /obj/effect/turf_decal/siding/wood,
@@ -26212,7 +26259,6 @@
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 1
 	},
-/obj/structure/canister_frame/machine/finished_canister_frame,
 /turf/open/floor/iron,
 /area/event)
 "mTu" = (
@@ -26247,7 +26293,7 @@
 	},
 /obj/structure/flora/grass/jungle/b/style_2,
 /obj/structure/sign/poster/ripped/directional/west,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mTW" = (
 /obj/structure/barricade/wooden/crude,
@@ -26323,7 +26369,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "mVc" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -26580,14 +26626,14 @@
 	pixel_x = 3;
 	pixel_y = 3
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nca" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 8
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ncr" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -26724,7 +26770,7 @@
 /obj/item/trash/can{
 	pixel_x = 11
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ngv" = (
 /obj/structure/lattice/catwalk,
@@ -26825,7 +26871,7 @@
 /obj/structure/chair{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nik" = (
 /obj/structure/chair/pew{
@@ -26958,7 +27004,6 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
 	},
-/obj/item/storage/secure/safe/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/landmark/start/assistant,
@@ -27318,7 +27363,7 @@
 "nsf" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/decal/cleanable/vomit/old,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nsh" = (
 /obj/effect/turf_decal/siding/wood{
@@ -27338,7 +27383,7 @@
 	pixel_x = -13;
 	pixel_y = 7
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nsz" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -27418,7 +27463,7 @@
 	dir = 1
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nvD" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -27465,7 +27510,7 @@
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nwo" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -27541,7 +27586,7 @@
 /area/event)
 "nyl" = (
 /obj/structure/flora/tree/pine,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nyy" = (
 /obj/structure/barricade/wooden/crude,
@@ -27585,13 +27630,14 @@
 /turf/open/floor/wood/tile,
 /area/event)
 "nzP" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
 /obj/structure/railing{
 	dir = 8
 	},
-/turf/open/floor/stone,
+/turf/open/floor/iron/stairs{
+	dir = 1;
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs_stone"
+	},
 /area/event)
 "nzU" = (
 /obj/structure/table,
@@ -27752,7 +27798,7 @@
 /area/event)
 "nDj" = (
 /obj/structure/flora/rock/pile/jungle,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nDp" = (
 /obj/effect/turf_decal/siding/wood,
@@ -27897,13 +27943,13 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/ash,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nIo" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/structure/table/reinforced/titaniumglass,
 /obj/item/gun/energy/meteorgun/pen,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nIs" = (
 /obj/effect/turf_decal/stripes/white/full{
@@ -27931,11 +27977,11 @@
 /turf/open/floor/iron/dark/herringbone,
 /area/event)
 "nJt" = (
-/obj/structure/industrial_lift{
-	radial_travel = 0
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
 	},
-/turf/open/floor/plating/elevatorshaft,
-/area/event)
+/turf/open/floor/stone,
+/area/centcom/tdome/arena/team_prep)
 "nJD" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/table/wood,
@@ -28074,6 +28120,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/stone,
 /area/event)
+"nMg" = (
+/obj/effect/oneway{
+	dir = 8;
+	id_tag = "a4"
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena/team_prep)
 "nMh" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
@@ -28084,7 +28137,7 @@
 /area/event)
 "nMJ" = (
 /obj/machinery/barsign/all_access/directional/north,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nMR" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -28097,7 +28150,7 @@
 /area/event)
 "nNp" = (
 /obj/machinery/light/directional/north,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nNr" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
@@ -28167,7 +28220,7 @@
 /area/event)
 "nOa" = (
 /obj/structure/flora/bush/sparsegrass,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nOn" = (
 /obj/structure/railing{
@@ -28231,7 +28284,7 @@
 /area/event)
 "nPz" = (
 /obj/effect/spawner/random/trash/moisture_trap,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nPA" = (
 /obj/item/clothing/head/cone{
@@ -28302,7 +28355,7 @@
 	pixel_y = -14
 	},
 /obj/machinery/vending/coffee,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nSB" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
@@ -28485,7 +28538,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nWe" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -28650,7 +28703,7 @@
 "nZQ" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/flora/tree/dead/style_5,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "nZR" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -28658,6 +28711,7 @@
 	},
 /obj/machinery/light/floor,
 /obj/effect/turf_decal/trimline/dark,
+/obj/structure/railing/corner/end/flip,
 /turf/open/floor/stone,
 /area/event)
 "oak" = (
@@ -28801,7 +28855,7 @@
 "ocP" = (
 /obj/structure/chair/sofa/right/maroon,
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ocU" = (
 /turf/open/floor/iron/dark/textured_large,
@@ -29045,6 +29099,7 @@
 	dir = 8
 	},
 /obj/effect/turf_decal/trimline/white,
+/obj/structure/railing/corner/end,
 /turf/open/floor/stone,
 /area/event)
 "ohG" = (
@@ -29064,7 +29119,7 @@
 	},
 /obj/structure/flora/bush/sparsegrass/style_2,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oig" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -29102,7 +29157,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oiK" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
@@ -29122,7 +29177,7 @@
 	pixel_x = 4;
 	pixel_y = 10
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ojY" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -29170,10 +29225,11 @@
 /turf/open/floor/iron/dark/textured,
 /area/event)
 "okI" = (
-/obj/structure/fake_stairs/stone{
-	dir = 8
+/turf/open/floor/iron/stairs{
+	dir = 8;
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs_stone"
 	},
-/turf/open/floor/stone,
 /area/event)
 "okM" = (
 /obj/effect/decal/cleanable/dirt,
@@ -29198,7 +29254,7 @@
 	pixel_x = -10;
 	pixel_y = 11
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "olZ" = (
 /obj/item/reagent_containers/cup/glass/bottle/beer{
@@ -29224,6 +29280,7 @@
 /area/event)
 "ome" = (
 /obj/effect/turf_decal/trimline/yellow/arrow_ccw,
+/obj/structure/holosign/barrier/engineering,
 /turf/open/floor/stone,
 /area/event)
 "omo" = (
@@ -29238,6 +29295,12 @@
 	dir = 4
 	},
 /area/event)
+"omE" = (
+/obj/machinery/computer/tournament_controller{
+	arena_id = "a1"
+	},
+/turf/open/floor/iron/white,
+/area/event)
 "omG" = (
 /obj/structure/lattice/catwalk,
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -29251,7 +29314,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "omS" = (
 /obj/structure/fluff/paper/stack{
@@ -29281,12 +29344,12 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "onU" = (
 /obj/structure/flora/rock/pile/style_random,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "onW" = (
 /obj/item/cigbutt{
@@ -29314,7 +29377,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ooI" = (
 /obj/item/chair/plastic,
@@ -29327,21 +29390,28 @@
 /area/event)
 "opz" = (
 /obj/effect/decal/cleanable/generic,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "opA" = (
 /obj/structure/fence{
 	pixel_x = 15
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
+"opH" = (
+/obj/machinery/tournament_spawn/green{
+	arena_id = "a1"
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/centcom/tdome/arena/team_prep)
 "opK" = (
 /obj/item/cigbutt{
 	pixel_x = -10;
 	pixel_y = 11
 	},
 /obj/structure/flora/rock/pile/jungle/style_4,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "opU" = (
 /obj/effect/turf_decal/siding/wood{
@@ -29365,7 +29435,7 @@
 	pixel_x = 11;
 	pixel_y = 9
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oqe" = (
 /obj/machinery/vending/cigarette,
@@ -29405,7 +29475,7 @@
 	pixel_x = -7;
 	pixel_y = -8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oqz" = (
 /obj/effect/turf_decal/siding/wood{
@@ -29481,7 +29551,7 @@
 "orJ" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/spawner/random/trash/mess,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oss" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
@@ -29621,7 +29691,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/glass,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ovI" = (
 /obj/effect/mapping_helpers/broken_floor{
@@ -29648,7 +29718,7 @@
 	color = "#3d2215";
 	dir = 8
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ovZ" = (
 /obj/structure/railing/corner/end/flip{
@@ -29661,7 +29731,7 @@
 /obj/machinery/door/poddoor/shutters{
 	id = "policeshutters"
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "owD" = (
 /obj/effect/turf_decal/caution/white{
@@ -29696,7 +29766,7 @@
 	pixel_x = 10;
 	pixel_y = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oxd" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -29792,15 +29862,6 @@
 	},
 /turf/open/misc/dirt/dark,
 /area/event)
-"oze" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/obj/structure/fluff/paper/stack{
-	dir = 10
-	},
-/turf/open/floor/stone,
-/area/event)
 "ozf" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
 	dir = 1
@@ -29809,7 +29870,7 @@
 	dir = 4
 	},
 /obj/item/reagent_containers/cup/glass/coffee,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ozq" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
@@ -29826,7 +29887,7 @@
 /obj/structure/fence{
 	dir = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ozP" = (
 /obj/effect/turf_decal/trimline/brown,
@@ -29856,7 +29917,7 @@
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/kirbyplants/organic/plant22,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oAP" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -29868,11 +29929,11 @@
 "oAX" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oBe" = (
 /obj/structure/closet/secure_closet/freezer/kitchen,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oBX" = (
 /obj/effect/turf_decal/stripes/corner{
@@ -29904,7 +29965,7 @@
 /obj/structure/flora/grass/both/style_3{
 	pixel_y = 6
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oDk" = (
 /obj/effect/food_cart_stand,
@@ -30005,20 +30066,13 @@
 /mob/living/basic/pet/dog/bullterrier{
 	buckled = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oFC" = (
 /obj/effect/turf_decal/siding{
 	color = "#999999"
 	},
-/turf/open/misc/dirt/jungle,
-/area/event)
-"oFI" = (
-/obj/structure/fake_stairs/wood{
-	dir = 8
-	},
-/obj/structure/railing,
-/turf/open/floor/wood/tile,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oFQ" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -30292,6 +30346,13 @@
 	color = "#B8B398"
 	},
 /area/event)
+"oMq" = (
+/obj/machinery/tournament_spawn/red{
+	arena_id = "a4"
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/centcom/tdome/arena/team_prep)
 "oMD" = (
 /obj/structure/chair/sofa/right/brown{
 	color = "#6e3668";
@@ -30342,7 +30403,7 @@
 	pixel_x = -8;
 	pixel_y = 5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oML" = (
 /obj/structure/closet/crate/bin,
@@ -30390,15 +30451,6 @@
 /turf/open/floor/iron/dark/smooth_corner{
 	dir = 1
 	},
-/area/event)
-"oOQ" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/space/basic,
 /area/event)
 "oPj" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -30482,7 +30534,7 @@
 	pixel_x = -13;
 	pixel_y = 7
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oRU" = (
 /obj/effect/turf_decal/siding/wood{
@@ -30589,7 +30641,7 @@
 "oVa" = (
 /obj/structure/bed/maint,
 /obj/item/bedsheet/patriot,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "oVd" = (
 /obj/effect/turf_decal/siding/wood/end,
@@ -30797,7 +30849,7 @@
 /obj/structure/fence{
 	dir = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pbq" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner,
@@ -30938,12 +30990,6 @@
 	dir = 1
 	},
 /area/event)
-"pdW" = (
-/obj/structure/fake_stairs/wood/directional/east{
-	dir = 8
-	},
-/turf/open/space/basic,
-/area/event)
 "pdZ" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
@@ -30979,8 +31025,14 @@
 	pixel_y = 3
 	},
 /obj/item/trash/can/food/pine_nuts,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
+"pfi" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 6
+	},
+/turf/open/floor/stone,
+/area/centcom/tdome/arena/team_prep)
 "pfB" = (
 /obj/structure/hedge,
 /turf/open/floor/iron/small{
@@ -31026,6 +31078,12 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/textured_edge,
 /area/event)
+"pgR" = (
+/obj/effect/landmark/arena/end{
+	arena_id = "a3"
+	},
+/turf/open/floor/plating,
+/area/centcom/tdome/arena)
 "pht" = (
 /obj/item/instrument/saxophone,
 /turf/open/floor/iron/kitchen,
@@ -31164,7 +31222,7 @@
 	pixel_x = 17;
 	pixel_y = 12
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "plY" = (
 /turf/open/floor/iron/dark/textured_half{
@@ -31176,7 +31234,7 @@
 	dir = 8
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pmE" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -31269,7 +31327,7 @@
 	pixel_x = 8;
 	pixel_y = -3
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pnT" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -31546,7 +31604,8 @@
 /turf/open/floor/carpet/red,
 /area/event)
 "pxb" = (
-/turf/open/floor/holofloor/stairs/medium{
+/turf/open/floor/iron/stairs{
+	color = "#a67844";
 	dir = 4
 	},
 /area/event)
@@ -31777,7 +31836,7 @@
 	dir = 1
 	},
 /obj/structure/chair/stool/directional/north,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pBW" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -31899,7 +31958,7 @@
 	pixel_x = -4;
 	pixel_y = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pFa" = (
 /obj/structure/bookcase/random,
@@ -31931,7 +31990,7 @@
 	pixel_x = 6;
 	pixel_y = -8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pGB" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -31966,7 +32025,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/railing,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pHN" = (
 /obj/effect/turf_decal/caution/white,
@@ -31985,7 +32044,7 @@
 "pIu" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/decal/cleanable/vomit,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pIF" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
@@ -32020,7 +32079,7 @@
 	pixel_x = 15
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pIO" = (
 /obj/effect/turf_decal/siding/wood{
@@ -32075,7 +32134,7 @@
 /area/event)
 "pKB" = (
 /obj/structure/shipping_container/kahraman/alt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pKP" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
@@ -32195,7 +32254,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/poster/ripped/directional/south,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pRm" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -32228,11 +32287,10 @@
 /turf/open/floor/carpet/black,
 /area/event)
 "pSc" = (
-/obj/structure/stairs/wood{
-	dir = 1
-	},
 /obj/machinery/light_switch/directional/east,
-/turf/open/space/basic,
+/turf/open/floor/iron/stairs{
+	color = "#a67844"
+	},
 /area/event)
 "pSt" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -32395,14 +32453,9 @@
 /turf/open/floor/iron/dark/diagonal,
 /area/event)
 "pUj" = (
-/obj/structure/industrial_lift{
-	radial_travel = 0
-	},
-/obj/effect/landmark/lift_id{
-	specific_lift_id = "carLift"
-	},
-/turf/open/floor/plating/elevatorshaft,
-/area/event)
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/stone,
+/area/centcom/tdome/arena/team_prep)
 "pUG" = (
 /obj/structure/chair/stool{
 	pixel_x = 4;
@@ -32506,7 +32559,7 @@
 /area/event)
 "pWL" = (
 /obj/structure/fence/door,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pXc" = (
 /turf/open/floor/iron/dark/smooth_edge{
@@ -32527,7 +32580,7 @@
 	pixel_x = -10;
 	pixel_y = 2
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pXi" = (
 /obj/effect/turf_decal/trimline/dark_red/warning{
@@ -32635,7 +32688,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 10
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pYp" = (
 /obj/effect/turf_decal/siding/thinplating_new{
@@ -32686,7 +32739,7 @@
 /obj/item/trash/champagne_cork/sabrage{
 	pixel_x = -5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "pZV" = (
 /obj/effect/turf_decal/siding/wood,
@@ -32699,7 +32752,7 @@
 /area/event)
 "qaj" = (
 /obj/structure/flora/rock/pile/jungle/style_3,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qao" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -32718,7 +32771,7 @@
 	pixel_x = -6;
 	pixel_y = 9
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qaO" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -32775,7 +32828,7 @@
 "qco" = (
 /obj/effect/decal/cleanable/glass,
 /obj/structure/chair/stool/directional/north,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qcp" = (
 /obj/effect/turf_decal/tile/dark/full,
@@ -32785,7 +32838,7 @@
 "qcE" = (
 /obj/structure/chair/sofa/bench/right,
 /obj/item/newspaper,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qcI" = (
 /obj/effect/turf_decal/siding/wood{
@@ -32840,6 +32893,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/freezer,
 /area/event)
+"qcY" = (
+/obj/machinery/tournament_spawn/red{
+	arena_id = "a2"
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/centcom/tdome/arena/team_prep)
 "qdv" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
@@ -32861,6 +32921,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/catwalk_floor,
 /area/event)
+"qeg" = (
+/obj/effect/landmark/arena_eye{
+	arena_id = "a1"
+	},
+/turf/open/floor/plating,
+/area/centcom/tdome/arena)
 "qel" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
@@ -32893,7 +32959,7 @@
 "qeM" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/decal/cleanable/glass,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qeT" = (
 /obj/effect/turf_decal/siding/wood{
@@ -32915,7 +32981,7 @@
 	pixel_x = -15
 	},
 /obj/item/trash/sosjerky,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qfg" = (
 /obj/effect/turf_decal/siding/wood{
@@ -33014,7 +33080,7 @@
 	pixel_x = 10;
 	pixel_y = -3
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qhM" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -33043,7 +33109,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/rack,
 /obj/item/wrench,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qjg" = (
 /obj/effect/turf_decal/siding/wood,
@@ -33162,7 +33228,7 @@
 /area/event)
 "qlg" = (
 /obj/structure/flora/bush/grassy/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qlx" = (
 /obj/item/photo/old{
@@ -33305,12 +33371,6 @@
 /obj/item/gun/ballistic/revolver/russian,
 /turf/open/floor/iron/dark/textured,
 /area/event)
-"qqM" = (
-/obj/structure/stairs/wood{
-	dir = 4
-	},
-/turf/open/space/basic,
-/area/event)
 "qqP" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
@@ -33438,7 +33498,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
 	dir = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qvi" = (
 /obj/structure/table,
@@ -33467,7 +33527,7 @@
 	pixel_x = -6;
 	pixel_y = 7
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qwa" = (
 /obj/effect/turf_decal/siding/wood{
@@ -33599,7 +33659,7 @@
 	pixel_x = 4;
 	pixel_y = 7
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qzo" = (
 /obj/effect/decal/cleanable/dirt,
@@ -33674,7 +33734,7 @@
 /area/event)
 "qAN" = (
 /obj/effect/decal/cleanable/garbage,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qAT" = (
 /obj/structure/hedge,
@@ -33755,7 +33815,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qCX" = (
 /obj/effect/turf_decal/siding/thinplating_new/corner{
@@ -33777,7 +33837,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qDx" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -33801,7 +33861,7 @@
 	pixel_y = 10
 	},
 /obj/item/reagent_containers/cup/glass/bottle/beer/almost_empty,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qDL" = (
 /obj/structure/table/wood/fancy/red,
@@ -33881,9 +33941,7 @@
 /turf/open/floor/stone,
 /area/event)
 "qGL" = (
-/obj/machinery/button/elevator/directional/east{
-	id = "carLift"
-	},
+/obj/machinery/button/elevator/directional/east,
 /obj/structure/railing,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/stone,
@@ -33923,7 +33981,8 @@
 /turf/open/floor/stone,
 /area/event)
 "qHI" = (
-/turf/open/floor/holofloor/stairs/medium{
+/turf/open/floor/iron/stairs{
+	color = "#a67844";
 	dir = 8
 	},
 /area/event)
@@ -34025,7 +34084,7 @@
 "qKB" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/decal/cleanable/blood/old,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qKJ" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
@@ -34050,7 +34109,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/structure/sign/poster/ripped/directional/north,
 /obj/item/kirbyplants/organic/plant22,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qLm" = (
 /obj/machinery/light/floor,
@@ -34124,15 +34183,6 @@
 /obj/effect/turf_decal/trimline/yellow/warning,
 /turf/open/floor/iron/dark/smooth_edge,
 /area/event)
-"qNC" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/textured,
-/area/event)
 "qOq" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
@@ -34145,7 +34195,7 @@
 "qOt" = (
 /obj/structure/closet/crate/trashcart/filled,
 /obj/effect/turf_decal/box/red,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qOu" = (
 /obj/effect/decal/cleanable/blood/old{
@@ -34177,7 +34227,6 @@
 /obj/effect/turf_decal/trimline/dark/filled/warning{
 	dir = 8
 	},
-/obj/structure/canister_frame/machine/unfinished_canister_frame,
 /turf/open/floor/iron,
 /area/event)
 "qPo" = (
@@ -34203,7 +34252,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qPM" = (
 /obj/effect/turf_decal/siding/wood{
@@ -34248,6 +34297,12 @@
 	color = "#B8B398"
 	},
 /area/event)
+"qQm" = (
+/obj/effect/landmark/arena/start{
+	arena_id = "a3"
+	},
+/turf/open/floor/plating,
+/area/centcom/tdome/arena)
 "qQx" = (
 /obj/structure/flora/bush/large/style_2{
 	pixel_y = -4
@@ -34368,7 +34423,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 10
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qUZ" = (
 /obj/effect/turf_decal/siding/wood/corner{
@@ -34534,7 +34589,7 @@
 	pixel_y = 13
 	},
 /obj/structure/flora/rock/pile/jungle,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "qYk" = (
 /obj/effect/decal/cleanable/robot_debris/old,
@@ -34593,6 +34648,12 @@
 	},
 /turf/open/floor/wood/parquet,
 /area/event)
+"qYX" = (
+/obj/effect/landmark/arena_eye{
+	arena_id = "a3"
+	},
+/turf/open/floor/plating,
+/area/centcom/tdome/arena)
 "qZi" = (
 /obj/effect/decal/cleanable/fuel_pool,
 /obj/effect/decal/cleanable/garbage,
@@ -34665,10 +34726,6 @@
 	pixel_x = 8
 	},
 /obj/effect/turf_decal/siding/thinplating_new/dark,
-/obj/item/storage/secure/briefcase{
-	pixel_x = 4;
-	pixel_y = -18
-	},
 /obj/structure/sign/clock/directional/north,
 /turf/open/floor/iron/dark/textured_edge{
 	dir = 8
@@ -34795,7 +34852,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "rep" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -34803,11 +34860,11 @@
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/structure/fence,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "reI" = (
 /obj/structure/chair/sofa/bench/right,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "reL" = (
 /obj/effect/turf_decal/trimline/dark/filled/warning{
@@ -34882,7 +34939,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "rgu" = (
 /obj/structure/table/reinforced,
@@ -34976,7 +35033,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "riB" = (
 /obj/effect/decal/cleanable/dirt,
@@ -35120,6 +35177,13 @@
 /obj/effect/turf_decal/raven/nine,
 /turf/open/floor/iron/dark/smooth_large,
 /area/event)
+"rlB" = (
+/obj/machinery/tournament_spawn/red{
+	arena_id = "a1"
+	},
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/centcom/tdome/arena/team_prep)
 "rlI" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -35132,7 +35196,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/weather/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "rmt" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -35177,10 +35241,6 @@
 	pixel_y = 16
 	},
 /turf/open/floor/stone,
-/area/event)
-"rnr" = (
-/obj/effect/decal/cleanable/vomit/old,
-/turf/open/misc/dirt/jungle,
 /area/event)
 "rnz" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner{
@@ -35301,7 +35361,7 @@
 "rqa" = (
 /obj/structure/bed/maint,
 /obj/item/bedsheet/brown,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "rqb" = (
 /obj/structure/punching_bag,
@@ -35359,14 +35419,8 @@
 /turf/open/floor/stone,
 /area/event)
 "rst" = (
-/obj/effect/turf_decal/siding/wood{
-	dir = 1
-	},
-/obj/effect/turf_decal/siding/wood/corner,
-/obj/item/storage/secure/safe/directional/north,
-/obj/effect/landmark/start/assistant,
-/turf/open/floor/wood/large,
-/area/event)
+/turf/open/floor/plating,
+/area/centcom/tdome/arena)
 "rsJ" = (
 /obj/structure/chair/sofa/bench/right{
 	dir = 1
@@ -35420,17 +35474,24 @@
 	},
 /turf/open/floor/stone,
 /area/event)
-"ruv" = (
-/obj/structure/stairs/stone{
-	dir = 1
+"ruk" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 5
 	},
+/turf/open/floor/stone,
+/area/centcom/tdome/arena/team_prep)
+"ruv" = (
 /obj/structure/railing{
 	dir = 8
 	},
 /obj/structure/railing/corner{
 	dir = 8
 	},
-/turf/open/floor/stone,
+/turf/open/floor/iron/stairs{
+	dir = 1;
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs_stone"
+	},
 /area/event)
 "ruT" = (
 /obj/structure/hedge,
@@ -35494,7 +35555,7 @@
 	pixel_x = -8;
 	pixel_y = -9
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "rxf" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -35910,7 +35971,7 @@
 	dir = 8
 	},
 /obj/structure/marker_beacon/cerulean,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "rHJ" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -36150,13 +36211,6 @@
 	},
 /turf/open/floor/wood/large,
 /area/event)
-"rNQ" = (
-/obj/structure/stairs/stone,
-/obj/structure/railing{
-	dir = 8
-	},
-/turf/open/space/basic,
-/area/event)
 "rNU" = (
 /obj/structure/chair/stool/bar/directional/west,
 /turf/open/floor/iron/kitchen,
@@ -36325,7 +36379,7 @@
 "rQV" = (
 /obj/effect/decal/cleanable/cobweb,
 /obj/structure/girder/reinforced,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "rQY" = (
 /obj/effect/turf_decal/sand/plating/volcanic,
@@ -36351,17 +36405,16 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/event)
 "rRb" = (
-/obj/structure/stairs/wood{
-	dir = 1
-	},
 /obj/structure/curtain/cloth{
 	color = "#993333"
 	},
-/turf/open/floor/stone,
+/turf/open/floor/iron/stairs{
+	color = "#a67844"
+	},
 /area/event)
 "rRw" = (
 /obj/structure/chair/stool/directional/east,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "rRB" = (
 /obj/structure/table/reinforced,
@@ -36618,7 +36671,7 @@
 	pixel_x = 4;
 	pixel_y = -1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "rZe" = (
 /obj/item/clothing/neck/tie/black,
@@ -36649,14 +36702,14 @@
 	dir = 5
 	},
 /obj/structure/flora/bush/sparsegrass/style_2,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sax" = (
 /turf/closed/wall/rust,
 /area/event)
 "saH" = (
 /obj/structure/fake_stairs/directional/east,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "saK" = (
 /obj/structure/chair/plastic{
@@ -36874,6 +36927,7 @@
 	},
 /obj/effect/decal/cleanable/ash,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/landmark/observer_start,
 /turf/open/floor/stone,
 /area/event)
 "sjx" = (
@@ -36949,7 +37003,7 @@
 /area/event)
 "sls" = (
 /obj/machinery/atmospherics/pipe/smart/simple/general/visible,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "slG" = (
 /obj/structure/railing{
@@ -37022,7 +37076,7 @@
 	icon_state = "Tunnel";
 	pixel_y = 16
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "spa" = (
 /obj/effect/turf_decal/tile/dark/fourcorners,
@@ -37035,7 +37089,7 @@
 "spm" = (
 /obj/structure/flora/tree/dead/style_6,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "spt" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -37254,7 +37308,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 8
 	},
-/turf/open/floor/iron/stairs/medium{
+/turf/open/floor/iron/stairs{
 	color = "#404040";
 	dir = 1
 	},
@@ -37269,7 +37323,7 @@
 "sug" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "suh" = (
 /obj/structure/chair/sofa/bench/right{
@@ -37357,7 +37411,7 @@
 /area/event)
 "svl" = (
 /obj/effect/decal/cleanable/vomit/old,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "svI" = (
 /obj/item/ammo_casing/c9mm{
@@ -37437,7 +37491,7 @@
 	pixel_x = -2;
 	pixel_y = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sxD" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -37689,7 +37743,7 @@
 	dir = 1
 	},
 /obj/structure/flora/tree/dead,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sCM" = (
 /obj/structure/railing{
@@ -37770,7 +37824,7 @@
 	pixel_x = -10;
 	pixel_y = 2
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sFy" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -37870,7 +37924,7 @@
 /area/event)
 "sHc" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sHg" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -37959,7 +38013,7 @@
 /obj/effect/decal/cleanable/oil{
 	icon_state = "floor7"
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sHZ" = (
 /obj/structure/table/reinforced,
@@ -38005,7 +38059,7 @@
 	pixel_x = -10;
 	pixel_y = 11
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sJT" = (
 /obj/effect/turf_decal/trimline/dark,
@@ -38096,15 +38150,6 @@
 	},
 /turf/open/misc/sandy_dirt,
 /area/event)
-"sMq" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/obj/structure/fluff/paper/stack{
-	dir = 8
-	},
-/turf/open/floor/stone,
-/area/event)
 "sMx" = (
 /obj/effect/turf_decal/box/corners{
 	dir = 8
@@ -38117,7 +38162,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/sign/warning/no_smoking/directional/south,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sMS" = (
 /obj/structure/fence{
@@ -38174,7 +38219,7 @@
 	pixel_x = 4;
 	pixel_y = 11
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sNt" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
@@ -38212,7 +38257,7 @@
 	pixel_y = -8
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sOf" = (
 /obj/structure/chair/office{
@@ -38242,7 +38287,7 @@
 	pixel_y = 12
 	},
 /obj/structure/closet/body_bag,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sPJ" = (
 /obj/structure/hedge,
@@ -38361,7 +38406,7 @@
 	dir = 4
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sSJ" = (
 /obj/structure/chair/sofa/bench/left{
@@ -38376,7 +38421,7 @@
 	dir = 6
 	},
 /obj/structure/flora/bush/lavendergrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sTr" = (
 /obj/structure/bookcase,
@@ -38430,7 +38475,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/glass,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sUh" = (
 /obj/structure/sign/poster/contraband/random/directional/north,
@@ -38460,14 +38505,11 @@
 	},
 /area/event)
 "sVs" = (
-/obj/effect/turf_decal/siding/wood,
-/obj/effect/turf_decal/siding/wood/corner{
+/obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 1
 	},
-/obj/item/storage/secure/safe/directional/south,
-/obj/effect/landmark/start/assistant,
-/turf/open/floor/wood/large,
-/area/event)
+/turf/open/floor/stone,
+/area/centcom/tdome/arena/team_prep)
 "sVw" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 4
@@ -38658,7 +38700,7 @@
 "sYR" = (
 /obj/structure/flora/bush/fullgrass,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "sZh" = (
 /obj/machinery/door/window/brigdoor/left/directional/east,
@@ -39041,7 +39083,7 @@
 "tgH" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/item/kirbyplants/organic/plant22,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "thm" = (
 /obj/effect/decal/cleanable/dirt,
@@ -39067,14 +39109,6 @@
 "tid" = (
 /obj/structure/rack,
 /obj/item/key/atv,
-/obj/item/storage/secure/briefcase{
-	pixel_x = -4;
-	pixel_y = 1
-	},
-/obj/item/storage/secure/briefcase{
-	pixel_x = 4;
-	pixel_y = -4
-	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/iron/dark/herringbone,
@@ -39093,7 +39127,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tiA" = (
 /obj/effect/turf_decal/trimline/dark,
@@ -39150,7 +39184,7 @@
 /area/event)
 "tjy" = (
 /obj/structure/holosign/barrier,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tkc" = (
 /obj/structure/chair/sofa/bench/left{
@@ -39201,7 +39235,7 @@
 "tkC" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner,
 /obj/structure/flora/tree/jungle/style_5,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tkM" = (
 /obj/structure/sign/departments/custodian/directional/west,
@@ -39262,7 +39296,7 @@
 "tmr" = (
 /obj/item/plate_shard,
 /obj/structure/flora/rock/pile/style_3,
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tmz" = (
 /obj/effect/decal/cleanable/crayon{
@@ -39380,7 +39414,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tnV" = (
 /obj/structure/fence{
@@ -39482,7 +39516,8 @@
 /area/event)
 "tqm" = (
 /obj/structure/railing,
-/turf/open/floor/holofloor/stairs/medium{
+/turf/open/floor/iron/stairs{
+	color = "#a67844";
 	dir = 4
 	},
 /area/event)
@@ -39535,7 +39570,7 @@
 "tsr" = (
 /obj/structure/flora/rock/pile/style_random,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tsu" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -39672,7 +39707,7 @@
 	pixel_x = -10;
 	pixel_y = 2
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ttT" = (
 /obj/effect/turf_decal/siding/wood{
@@ -39741,7 +39776,7 @@
 	pixel_x = 7;
 	pixel_y = 5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tuT" = (
 /turf/open/floor/iron/grimy,
@@ -39770,12 +39805,14 @@
 	},
 /area/event)
 "tvK" = (
-/obj/structure/stairs/stone,
 /obj/structure/fluff/paper/stack{
 	dir = 8;
 	pixel_y = 8
 	},
-/turf/open/floor/stone,
+/turf/open/floor/iron/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs_stone"
+	},
 /area/event)
 "tvN" = (
 /obj/effect/turf_decal/siding/wood{
@@ -39788,12 +39825,6 @@
 /obj/structure/table/wood/fancy/royalblack,
 /obj/effect/spawner/random/food_or_drink/booze,
 /turf/open/floor/wood/tile,
-/area/event)
-"tvZ" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/turf/open/space/basic,
 /area/event)
 "twm" = (
 /obj/structure/railing/corner/end/flip{
@@ -39868,15 +39899,6 @@
 	},
 /turf/open/floor/wood/large,
 /area/event)
-"tyq" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/structure/fake_stairs/wood/directional/east{
-	dir = 8
-	},
-/turf/open/space/basic,
-/area/event)
 "tyW" = (
 /obj/effect/turf_decal/siding/thinplating_new{
 	dir = 1
@@ -39917,7 +39939,7 @@
 /area/event)
 "tzD" = (
 /obj/structure/bed/maint,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tzN" = (
 /obj/effect/turf_decal/siding/white/corner,
@@ -40185,7 +40207,7 @@
 /area/event)
 "tIO" = (
 /obj/effect/decal/cleanable/xenoblood,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tIX" = (
 /obj/effect/decal/cleanable/glass,
@@ -40209,14 +40231,14 @@
 	pixel_y = 11
 	},
 /obj/effect/spawner/random/trash/garbage,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tJf" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/item/kirbyplants/organic/plant22{
 	pixel_y = 16
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tJp" = (
 /obj/effect/turf_decal/siding/wood{
@@ -40283,7 +40305,7 @@
 /obj/item/trash/cnds{
 	pixel_y = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tNm" = (
 /obj/effect/turf_decal/siding/wood{
@@ -40402,13 +40424,13 @@
 	pixel_x = 10;
 	pixel_y = -21
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tPt" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 10
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tPu" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -40470,7 +40492,7 @@
 "tQR" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tRv" = (
 /obj/item/kirbyplants/organic/plant22{
@@ -40486,7 +40508,7 @@
 	dir = 1
 	},
 /obj/structure/flora/bush/sparsegrass/style_2,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tRP" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -40684,7 +40706,7 @@
 /area/event)
 "tWD" = (
 /obj/effect/spawner/random/food_or_drink/refreshing_beverage,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tWG" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -40793,7 +40815,7 @@
 	pixel_y = -6
 	},
 /obj/structure/flora/grass/both/style_3,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "tYE" = (
 /obj/structure/rack,
@@ -40939,7 +40961,7 @@
 /obj/structure/chair/sofa/bench/right{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ubO" = (
 /obj/structure/fluff/paper{
@@ -41174,7 +41196,7 @@
 	},
 /obj/effect/decal/cleanable/glass,
 /obj/item/kirbyplants/organic/plant22,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ujz" = (
 /obj/structure/railing/corner/end/flip,
@@ -41192,10 +41214,9 @@
 /turf/closed/wall/mineral/iron,
 /area/event)
 "uke" = (
-/obj/structure/stairs/wood{
-	dir = 1
+/turf/open/floor/iron/stairs{
+	color = "#a67844"
 	},
-/turf/open/space/basic,
 /area/event)
 "ukl" = (
 /obj/structure/fence/end{
@@ -41346,7 +41367,7 @@
 	pixel_y = 6
 	},
 /obj/structure/spacevine,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "umI" = (
 /obj/effect/mapping_helpers/broken_floor,
@@ -41363,6 +41384,12 @@
 	dir = 1
 	},
 /turf/open/floor/stone,
+/area/event)
+"umS" = (
+/obj/machinery/computer/tournament_controller{
+	arena_id = "a3"
+	},
+/turf/open/floor/iron/white,
 /area/event)
 "umV" = (
 /obj/effect/turf_decal/tile/dark/fourcorners,
@@ -41393,7 +41420,7 @@
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 9
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "uoP" = (
 /obj/effect/decal/cleanable/dirt,
@@ -41525,7 +41552,7 @@
 "urZ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed/maint,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "usr" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -41542,7 +41569,7 @@
 /obj/structure/fluff/paper/stack{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "usE" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -41685,7 +41712,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "uwV" = (
 /obj/structure/closet/crate/cardboard/mothic,
@@ -41741,7 +41768,7 @@
 	dir = 8
 	},
 /obj/structure/flora/bush/fullgrass/style_3,
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "uyR" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -41798,12 +41825,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/weather/dirt,
-/turf/open/misc/dirt,
-/area/event)
-"uzV" = (
-/obj/structure/fake_stairs/wood/directional/east,
-/obj/structure/railing,
-/turf/open/space/basic,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "uzW" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -41960,7 +41982,7 @@
 	pixel_y = -14
 	},
 /obj/effect/decal/cleanable/oil,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "uDo" = (
 /obj/structure/table/reinforced,
@@ -41996,7 +42018,7 @@
 	dir = 1
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "uEs" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
@@ -42042,12 +42064,18 @@
 /obj/structure/flora/grass/both/style_3{
 	pixel_y = 6
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "uFG" = (
 /obj/structure/bookcase,
 /turf/open/floor/wood/large,
 /area/event)
+"uGf" = (
+/obj/effect/landmark/arena/end{
+	arena_id = "a4"
+	},
+/turf/open/floor/plating,
+/area/centcom/tdome/arena)
 "uGB" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
@@ -42066,7 +42094,7 @@
 /area/event)
 "uGT" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "uGW" = (
 /obj/item/storage/backpack/satchel,
@@ -42168,7 +42196,7 @@
 /area/event)
 "uIa" = (
 /obj/structure/flora/rock/pile,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "uIn" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -42244,7 +42272,7 @@
 /area/event)
 "uJA" = (
 /obj/item/clothing/shoes/ducky_shoes,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "uKd" = (
 /obj/effect/turf_decal/siding/wood,
@@ -42371,7 +42399,7 @@
 "uMN" = (
 /obj/structure/chair/sofa/bench/left,
 /obj/item/reagent_containers/cup/glass/coffee,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "uMV" = (
 /obj/item/storage/briefcase,
@@ -42410,7 +42438,7 @@
 "uNZ" = (
 /obj/structure/railing/corner/end,
 /obj/effect/turf_decal/weather/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "uOa" = (
 /obj/effect/turf_decal/delivery,
@@ -42631,11 +42659,10 @@
 /turf/open/floor/stone,
 /area/event)
 "uRG" = (
-/obj/structure/stairs/stone,
-/obj/structure/fluff/paper/stack{
-	dir = 1
+/turf/open/floor/iron/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs_stone"
 	},
-/turf/open/space/basic,
 /area/event)
 "uRS" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -42656,13 +42683,14 @@
 	},
 /area/event)
 "uRV" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
 /obj/structure/railing{
 	dir = 4
 	},
-/turf/open/floor/stone,
+/turf/open/floor/iron/stairs{
+	dir = 1;
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs_stone"
+	},
 /area/event)
 "uSv" = (
 /obj/effect/turf_decal/trimline/dark_red/warning{
@@ -42739,7 +42767,7 @@
 /obj/item/trash/can{
 	pixel_x = 11
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "uTB" = (
 /obj/effect/turf_decal/tile/neutral/opposingcorners,
@@ -42794,7 +42822,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "uWe" = (
 /obj/effect/decal/cleanable/dirt,
@@ -43027,7 +43055,7 @@
 /obj/structure/fence/cut/large{
 	dir = 4
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vbN" = (
 /obj/structure/chair/plastic{
@@ -43084,7 +43112,7 @@
 	pixel_x = -6;
 	pixel_y = 20
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vdo" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -43455,7 +43483,7 @@
 /area/event)
 "vnm" = (
 /obj/structure/hedge/opaque,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vnH" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -43467,13 +43495,13 @@
 	pixel_x = -1;
 	pixel_y = -3
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vnP" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/railing,
 /obj/structure/sign/poster/ripped/directional/south,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vnW" = (
 /obj/machinery/door/airlock/wood,
@@ -43549,7 +43577,7 @@
 /obj/structure/fluff/paper/stack{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "voC" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -43609,7 +43637,7 @@
 	pixel_x = -1;
 	pixel_y = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vqF" = (
 /obj/structure/chair/comfy{
@@ -43893,7 +43921,7 @@
 "vxe" = (
 /obj/structure/table,
 /obj/item/toy/beach_ball/baseball,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vxf" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark/corner,
@@ -43946,7 +43974,7 @@
 "vxE" = (
 /obj/structure/closet/crate/trashcart/filled,
 /obj/effect/spawner/random/trash/garbage,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vyh" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -44223,16 +44251,13 @@
 /turf/open/floor/iron/dark/herringbone,
 /area/event)
 "vFG" = (
-/obj/structure/stairs/stone,
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/structure/fluff/paper/stack{
-	dir = 1;
-	pixel_x = -1;
-	pixel_y = -3
+/turf/open/floor/iron/stairs{
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs_stone"
 	},
-/turf/open/space/basic,
 /area/event)
 "vGa" = (
 /obj/effect/decal/cleanable/blood/old{
@@ -44351,7 +44376,7 @@
 /obj/structure/fence/corner{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vJJ" = (
 /turf/open/floor/carpet,
@@ -44388,7 +44413,7 @@
 	dir = 8
 	},
 /obj/structure/flora/tree/dead/style_5,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vKY" = (
 /obj/effect/turf_decal/siding/wood/end{
@@ -44413,7 +44438,7 @@
 	pixel_x = -10;
 	pixel_y = 11
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vLQ" = (
 /obj/structure/sign/warning/directional/north,
@@ -44474,6 +44499,9 @@
 /obj/structure/railing/corner/end{
 	dir = 8
 	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
 /turf/open/floor/wood/large,
 /area/event)
 "vOj" = (
@@ -44483,7 +44511,7 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vOo" = (
 /obj/structure/chair/office,
@@ -44522,7 +44550,7 @@
 /area/event)
 "vPO" = (
 /obj/machinery/light/directional/south,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vQd" = (
 /obj/machinery/vending/cigarette,
@@ -44535,7 +44563,7 @@
 	dir = 8
 	},
 /obj/structure/flora/bush/sparsegrass/style_random,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vQA" = (
 /obj/structure/chair/wood{
@@ -44649,6 +44677,9 @@
 /area/event)
 "vSH" = (
 /obj/structure/railing/corner/end/flip{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
 /turf/open/floor/wood/large,
@@ -44905,7 +44936,7 @@
 "vYF" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vYI" = (
 /obj/structure/chair/comfy/black{
@@ -44918,7 +44949,7 @@
 	dir = 8
 	},
 /obj/structure/flora/tree/jungle/style_5,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "vYL" = (
 /turf/closed/wall/mineral/iron,
@@ -44991,7 +45022,7 @@
 /area/event)
 "vZZ" = (
 /obj/structure/sign/warning/doors/directional/east,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wan" = (
 /obj/effect/decal/cleanable/dirt,
@@ -45243,6 +45274,10 @@
 	},
 /turf/open/floor/wood/large,
 /area/event)
+"whq" = (
+/obj/structure/bed/maint,
+/turf/open/floor/catwalk_floor,
+/area/event)
 "whs" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 4
@@ -45335,7 +45370,7 @@
 /obj/structure/curtain/cloth{
 	color = "#666666"
 	},
-/turf/open/floor/iron/stairs/medium{
+/turf/open/floor/iron/stairs{
 	color = "#404040";
 	dir = 1
 	},
@@ -45393,12 +45428,6 @@
 	pixel_y = -9
 	},
 /turf/open/floor/stone,
-/area/event)
-"wls" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/turf/open/floor/iron/dark/textured,
 /area/event)
 "wlz" = (
 /obj/effect/turf_decal/siding/white{
@@ -45458,7 +45487,7 @@
 "wne" = (
 /obj/structure/flora/rock/pile/style_2,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wnt" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
@@ -45472,7 +45501,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wnL" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -45628,7 +45657,6 @@
 	pixel_x = 1;
 	pixel_y = -2
 	},
-/obj/item/storage/secure/safe/directional/west,
 /obj/item/extinguisher/mini{
 	pixel_x = -10;
 	pixel_y = -4
@@ -45735,18 +45763,11 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/event)
 "wsU" = (
-/obj/structure/tank_holder{
-	pixel_x = -7;
-	pixel_y = 19
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
 	},
-/obj/structure/canister_frame{
-	pixel_x = 7;
-	pixel_y = 8
-	},
-/obj/structure/chair/stool{
-	pixel_x = -7;
-	pixel_y = 2
-	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/railing/corner/end,
 /turf/open/floor/stone,
 /area/event)
 "wsW" = (
@@ -45801,7 +45822,7 @@
 	pixel_x = -1;
 	pixel_y = 3
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wuV" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -45875,7 +45896,7 @@
 	pixel_x = -11;
 	pixel_y = 6
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wvR" = (
 /obj/structure/fluff/paper/stack{
@@ -45973,6 +45994,12 @@
 /obj/structure/mineral_door/wood,
 /turf/open/floor/iron,
 /area/event)
+"wxU" = (
+/obj/effect/landmark/arena/start{
+	arena_id = "a1"
+	},
+/turf/open/floor/plating,
+/area/centcom/tdome/arena)
 "wym" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
@@ -46012,7 +46039,7 @@
 /area/event)
 "wzl" = (
 /obj/structure/flora/tree/dead/style_6,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wzG" = (
 /turf/open/floor/carpet/black,
@@ -46152,7 +46179,7 @@
 /obj/structure/fence{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wCz" = (
 /obj/structure/tank_holder/extinguisher{
@@ -46253,14 +46280,14 @@
 	pixel_x = -10;
 	pixel_y = 5
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wFr" = (
 /obj/item/toy/crayon/spraycan{
 	pixel_x = 10;
 	pixel_y = 17
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wFJ" = (
 /obj/structure/chair/stool/bar/directional/west{
@@ -46358,7 +46385,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wHE" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -46545,7 +46572,7 @@
 	pixel_y = -3
 	},
 /obj/machinery/light/small/directional/east,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wMa" = (
 /obj/item/training_toolbox{
@@ -46620,7 +46647,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wNl" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
@@ -46661,7 +46688,7 @@
 	pixel_y = 11
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wOb" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -46681,6 +46708,13 @@
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/wood,
 /area/event)
+"wOJ" = (
+/obj/item/kirbyplants/random,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/floor/wood/large,
+/area/event)
 "wOT" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/turf_decal/trimline/dark/warning,
@@ -46693,7 +46727,7 @@
 	pixel_x = -5;
 	pixel_y = 24
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wOV" = (
 /obj/effect/turf_decal/box/red/corners{
@@ -46718,7 +46752,7 @@
 /obj/structure/curtain/cloth{
 	color = "#666666"
 	},
-/turf/open/floor/iron/stairs/medium{
+/turf/open/floor/iron/stairs{
 	color = "#404040";
 	dir = 1
 	},
@@ -46828,7 +46862,7 @@
 /obj/item/kirbyplants/organic/plant17{
 	pixel_y = 23
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wST" = (
 /turf/closed/indestructible/fakeglass,
@@ -47041,7 +47075,7 @@
 /obj/structure/flora/bush/sparsegrass{
 	pixel_x = -20
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wXb" = (
 /obj/structure/fluff/paper/stack{
@@ -47077,15 +47111,11 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/generic,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wXK" = (
 /obj/item/kirbyplants/organic/plant22{
 	pixel_y = 16
-	},
-/obj/item/storage/secure/briefcase{
-	pixel_x = 4;
-	pixel_y = -11
 	},
 /obj/effect/turf_decal/weather/dirt{
 	dir = 5
@@ -47155,7 +47185,7 @@
 	pixel_x = 12;
 	pixel_y = -11
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "wZs" = (
 /obj/effect/turf_decal/trimline/neutral/warning,
@@ -47239,7 +47269,7 @@
 	pixel_x = 7
 	},
 /obj/structure/sign/warning/no_smoking/directional/east,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xat" = (
 /obj/effect/turf_decal/tile/bar/opposingcorners,
@@ -47258,7 +47288,7 @@
 /obj/effect/turf_decal/weather/dirt{
 	dir = 6
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xbb" = (
 /obj/effect/turf_decal/trimline/dark/filled/line{
@@ -47278,7 +47308,7 @@
 	dir = 5
 	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xbP" = (
 /obj/structure/table/wood/poker,
@@ -47366,7 +47396,7 @@
 /obj/structure/chair/sofa/bench{
 	dir = 8
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xdY" = (
 /obj/effect/turf_decal/trimline/dark/filled/warning{
@@ -47527,14 +47557,14 @@
 /obj/effect/turf_decal/siding/thinplating_new/dark,
 /obj/effect/decal/cleanable/dirt,
 /obj/item/chair/stool,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xjU" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark{
 	dir = 4
 	},
 /obj/structure/fence,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xjV" = (
 /obj/effect/turf_decal/caution/white,
@@ -47705,7 +47735,7 @@
 /obj/effect/decal/cleanable/garbage{
 	pixel_y = 2
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xnf" = (
 /obj/effect/decal/cleanable/ash/large,
@@ -47793,9 +47823,6 @@
 	},
 /turf/open/floor/wood/large,
 /area/event)
-"xqp" = (
-/turf/open/misc/dirt,
-/area/event)
 "xqv" = (
 /obj/structure/window/reinforced/survival_pod/spawner/directional/north,
 /turf/open/floor/iron/dark,
@@ -47881,7 +47908,7 @@
 /obj/structure/curtain/cloth{
 	color = "#666666"
 	},
-/turf/open/floor/iron/stairs/medium{
+/turf/open/floor/iron/stairs{
 	color = "#404040";
 	dir = 1
 	},
@@ -47946,11 +47973,11 @@
 /turf/open/floor/iron/dark/herringbone,
 /area/event)
 "xuk" = (
-/obj/structure/stairs/wood{
-	dir = 4
-	},
 /obj/structure/railing,
-/turf/open/space/basic,
+/turf/open/floor/iron/stairs{
+	color = "#a67844";
+	dir = 8
+	},
 /area/event)
 "xul" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -47970,7 +47997,7 @@
 /obj/structure/toilet{
 	dir = 1
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xvk" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -48032,7 +48059,7 @@
 	pixel_x = -9;
 	pixel_y = -24
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xwA" = (
 /obj/effect/decal/cleanable/dirt,
@@ -48110,7 +48137,7 @@
 	pixel_y = -1
 	},
 /obj/structure/mirror/broken/directional/north,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xxD" = (
 /obj/effect/turf_decal/siding/thinplating_new/dark/corner{
@@ -48179,7 +48206,7 @@
 	icon_state = "body";
 	pixel_y = 24
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xzN" = (
 /obj/structure/lattice/catwalk,
@@ -48264,7 +48291,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/glass,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xBX" = (
 /obj/effect/spawner/structure/window/reinforced/tinted,
@@ -48297,7 +48324,7 @@
 /area/event)
 "xCB" = (
 /obj/structure/flora/rock/pile/style_2,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xCO" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -48310,7 +48337,7 @@
 	icon_state = "box_1"
 	},
 /obj/structure/grille/broken,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xCT" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
@@ -48348,13 +48375,13 @@
 	pixel_x = -6;
 	pixel_y = -6
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xEp" = (
 /obj/structure/flora/bush/sparsegrass/style_random,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xEx" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark,
@@ -48414,10 +48441,6 @@
 	pixel_y = 3
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/storage/secure/briefcase{
-	pixel_x = 4;
-	pixel_y = -18
-	},
 /obj/item/phone{
 	pixel_x = 6;
 	pixel_y = -2
@@ -48503,7 +48526,8 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/floor/holofloor/stairs/medium{
+/turf/open/floor/iron/stairs{
+	color = "#a67844";
 	dir = 4
 	},
 /area/event)
@@ -48569,7 +48593,7 @@
 	pixel_x = 4;
 	pixel_y = 11
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xJK" = (
 /obj/effect/turf_decal/siding/wood{
@@ -48671,7 +48695,7 @@
 	dir = 6
 	},
 /obj/structure/flora/bush/sparsegrass/style_2,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xMb" = (
 /obj/structure/chair/comfy/brown,
@@ -48750,16 +48774,17 @@
 	pixel_x = 9;
 	pixel_y = 10
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xNA" = (
-/obj/structure/stairs/stone{
-	dir = 4
-	},
 /obj/structure/railing{
 	dir = 1
 	},
-/turf/open/floor/stone,
+/turf/open/floor/iron/stairs{
+	dir = 8;
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs_stone"
+	},
 /area/event)
 "xNC" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -48811,7 +48836,7 @@
 /area/event)
 "xOB" = (
 /obj/structure/bonfire,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xOP" = (
 /obj/effect/spawner/structure/window/reinforced,
@@ -48827,12 +48852,12 @@
 	dir = 10
 	},
 /obj/structure/flora/bush/sparsegrass,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xPs" = (
 /obj/item/cigbutt/roach,
 /obj/effect/decal/cleanable/ash,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xPP" = (
 /obj/structure/sink/directional/west,
@@ -48860,10 +48885,6 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/item/storage/secure/briefcase{
-	pixel_x = 3;
-	pixel_y = 16
-	},
 /obj/effect/landmark/start/assistant,
 /turf/open/floor/wood/large,
 /area/event)
@@ -48920,7 +48941,7 @@
 /obj/structure/flora/grass/both/style_3{
 	pixel_y = 13
 	},
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xRS" = (
 /obj/structure/window/reinforced/spawner/directional/west,
@@ -49001,8 +49022,15 @@
 	pixel_y = -24
 	},
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
+"xTI" = (
+/obj/effect/oneway{
+	dir = 8;
+	id_tag = "a3"
+	},
+/turf/open/floor/iron/dark,
+/area/centcom/tdome/arena/team_prep)
 "xTJ" = (
 /obj/machinery/atmospherics/components/tank,
 /obj/effect/decal/cleanable/dirt,
@@ -49119,7 +49147,7 @@
 /area/event)
 "xXw" = (
 /obj/structure/flora/bush/leafy,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xYI" = (
 /obj/effect/decal/cleanable/dirt/dust,
@@ -49131,7 +49159,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
 	},
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "xZf" = (
 /obj/effect/turf_decal/weather/dirt{
@@ -49298,7 +49326,7 @@
 	dir = 1
 	},
 /obj/structure/flora/tree/dead/style_2,
-/turf/open/misc/dirt,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "ycy" = (
 /obj/structure/table,
@@ -49342,6 +49370,10 @@
 	},
 /turf/open/floor/iron/dark/textured,
 /area/event)
+"ydD" = (
+/obj/item/trash/chips,
+/turf/open/floor/catwalk_floor,
+/area/event)
 "yei" = (
 /obj/effect/turf_decal/weather/dirt{
 	dir = 9
@@ -49358,6 +49390,10 @@
 	dir = 1
 	},
 /area/event)
+"yek" = (
+/obj/effect/landmark/tournament_spawn_valid_location,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/centcom/tdome/arena/team_prep)
 "yet" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood{
@@ -49391,6 +49427,12 @@
 	},
 /turf/open/floor/wood/large,
 /area/event)
+"yfI" = (
+/obj/machinery/computer/tournament_controller{
+	arena_id = "a2"
+	},
+/turf/open/floor/iron/white,
+/area/event)
 "yfV" = (
 /obj/structure/fence,
 /turf/open/floor/iron/dark/textured,
@@ -49416,6 +49458,12 @@
 	color = "#B8B398"
 	},
 /area/event)
+"ygK" = (
+/obj/effect/landmark/arena/start{
+	arena_id = "a4"
+	},
+/turf/open/floor/plating,
+/area/centcom/tdome/arena)
 "ygV" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 1
@@ -49474,7 +49522,7 @@
 /turf/open/water/jungle,
 /area/event)
 "yhM" = (
-/turf/open/misc/dirt/jungle,
+/turf/open/misc/dirt/jungle/dark,
 /area/event)
 "yhQ" = (
 /turf/open/openspace,
@@ -49539,19 +49587,11 @@
 /turf/open/misc/dirt/dark,
 /area/event)
 "ykf" = (
-/obj/structure/stairs/stone{
-	dir = 1
-	},
-/obj/structure/fluff/paper/stack{
-	pixel_x = -9;
-	pixel_y = -24
-	},
-/obj/structure/fluff/paper/stack{
+/turf/open/floor/iron/stairs{
 	dir = 1;
-	pixel_x = -1;
-	pixel_y = -3
+	icon = 'icons/obj/stairs.dmi';
+	icon_state = "stairs_stone"
 	},
-/turf/open/floor/stone,
 /area/event)
 "ykt" = (
 /obj/effect/turf_decal/siding/wood{
@@ -72826,7 +72866,7 @@ hhK
 hhK
 pzK
 eSq
-eSq
+omE
 eSq
 pzK
 hhK
@@ -72852,7 +72892,7 @@ hhK
 hhK
 pzK
 eSq
-eSq
+yfI
 eSq
 pzK
 hhK
@@ -75126,7 +75166,7 @@ hhK
 hhK
 hhK
 pzK
-oFI
+tqm
 kjw
 iSC
 fwq
@@ -75650,16 +75690,16 @@ eIM
 eIM
 eIM
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+hAz
+hAz
+hAz
+hAz
+hAz
+pUj
+hTz
 ucA
 eIM
 eIM
@@ -75673,16 +75713,16 @@ pzK
 eIM
 eIM
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+hAz
+hAz
+hAz
+hAz
+hAz
+pUj
+hTz
 ucA
 eIM
 vJJ
@@ -75907,16 +75947,16 @@ eIM
 eIM
 eIM
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+yek
+yek
+opH
+yek
+hAz
+pUj
+hTz
 ucA
 eIM
 eIM
@@ -75930,16 +75970,16 @@ eIM
 eIM
 eIM
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+yek
+yek
+ahf
+yek
+hAz
+pUj
+hTz
 ucA
 eIM
 jEl
@@ -76164,16 +76204,16 @@ eIM
 eIM
 eIM
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+ruk
+fTa
+fTa
+fTa
+fTa
+fTa
+fTa
+pfi
+hTz
 ucA
 eIM
 eIM
@@ -76187,16 +76227,16 @@ eIM
 eIM
 eIM
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+ruk
+fTa
+fTa
+fTa
+fTa
+fTa
+fTa
+pfi
+hTz
 ucA
 eIM
 uWX
@@ -76421,16 +76461,16 @@ eIM
 eIM
 nzz
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+dxs
+byS
+byS
+byS
+byS
+byS
+byS
+byS
+byS
+dxs
 ucA
 nzz
 eIM
@@ -76444,16 +76484,16 @@ eIM
 eIM
 qFH
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+dxs
+jHo
+jHo
+jHo
+jHo
+jHo
+jHo
+jHo
+jHo
+dxs
 ucA
 qFH
 eIM
@@ -76678,16 +76718,16 @@ eIM
 rUZ
 nmn
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+wxU
 wST
 cPA
 tfP
@@ -76701,16 +76741,16 @@ vJJ
 vSu
 epr
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+mJA
 wST
 oPx
 xFy
@@ -76935,16 +76975,16 @@ wzG
 mKP
 vDc
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 bhp
 iVV
@@ -76958,16 +76998,16 @@ vJJ
 aFV
 ccG
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 ccG
 fgl
@@ -77192,16 +77232,16 @@ wzG
 mKP
 tvQ
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 csM
 iVV
@@ -77215,16 +77255,16 @@ vJJ
 aFV
 rrP
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 rrP
 fgl
@@ -77449,16 +77489,16 @@ wzG
 mKP
 csM
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 bhp
 iVV
@@ -77472,16 +77512,16 @@ vJJ
 aFV
 rrP
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 rrP
 fgl
@@ -77706,16 +77746,16 @@ wzG
 mKP
 csM
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 csM
 iVV
@@ -77729,16 +77769,16 @@ vJJ
 aFV
 rrP
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 vaP
 fgl
@@ -77963,16 +78003,16 @@ wzG
 mKP
 vDc
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 csM
 iVV
@@ -77986,16 +78026,16 @@ vJJ
 aFV
 fre
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 ccG
 fgl
@@ -78220,16 +78260,16 @@ wzG
 hYw
 xGI
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 jew
 eHW
@@ -78243,16 +78283,16 @@ vJJ
 jyf
 oLP
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 wib
 fbC
@@ -78477,16 +78517,16 @@ wzG
 wzG
 nnX
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 nnX
 wzG
@@ -78500,16 +78540,16 @@ vJJ
 vJJ
 hdI
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 hdI
 vJJ
@@ -78734,16 +78774,16 @@ wzG
 wzG
 wzG
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+qeg
+rst
+rst
+rst
+rst
 wST
 wzG
 wzG
@@ -78757,16 +78797,16 @@ vJJ
 vJJ
 vJJ
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+mng
+rst
+rst
+rst
+rst
 wST
 vJJ
 vJJ
@@ -78991,16 +79031,16 @@ wzG
 wzG
 nnX
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 nnX
 wzG
@@ -79014,16 +79054,16 @@ vJJ
 vJJ
 hdI
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 hdI
 vJJ
@@ -79248,16 +79288,16 @@ wzG
 rUZ
 nmn
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 cPA
 tfP
@@ -79271,16 +79311,16 @@ vJJ
 vSu
 epr
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 oPx
 xFy
@@ -79505,16 +79545,16 @@ wzG
 mKP
 vDc
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 bhp
 iVV
@@ -79528,16 +79568,16 @@ vJJ
 aFV
 qDL
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 ccG
 fgl
@@ -79762,16 +79802,16 @@ wzG
 mKP
 csM
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 csM
 iVV
@@ -79785,16 +79825,16 @@ vJJ
 aFV
 vlD
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 rrP
 fgl
@@ -80019,16 +80059,16 @@ wzG
 mKP
 lVj
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 tvQ
 iVV
@@ -80042,16 +80082,16 @@ vJJ
 aFV
 rrP
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 rrP
 fgl
@@ -80276,16 +80316,16 @@ wzG
 mKP
 tvQ
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 lVj
 iVV
@@ -80299,16 +80339,16 @@ vJJ
 aFV
 vlD
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 rrP
 fgl
@@ -80533,16 +80573,16 @@ wzG
 mKP
 vDc
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 tvQ
 iVV
@@ -80556,16 +80596,16 @@ vJJ
 aFV
 qDL
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 fre
 fgl
@@ -80790,16 +80830,16 @@ eIM
 hYw
 xGI
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+kgN
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 jew
 eHW
@@ -80813,16 +80853,16 @@ vJJ
 jyf
 oLP
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+aES
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 wib
 fbC
@@ -81047,16 +81087,16 @@ eIM
 eIM
 nzz
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+dxs
+fuQ
+fuQ
+fuQ
+fuQ
+fuQ
+fuQ
+fuQ
+fuQ
+dxs
 ucA
 nzz
 eIM
@@ -81070,16 +81110,16 @@ eIM
 eIM
 qFH
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+dxs
+cTn
+cTn
+cTn
+cTn
+cTn
+cTn
+cTn
+cTn
+dxs
 ucA
 qFH
 eIM
@@ -81304,16 +81344,16 @@ eIM
 eIM
 eIM
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+mRf
+all
+all
+all
+all
+all
+all
+nJt
+hTz
 ucA
 eIM
 eIM
@@ -81327,16 +81367,16 @@ eIM
 eIM
 eIM
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+mRf
+all
+all
+all
+all
+all
+all
+nJt
+hTz
 ucA
 eIM
 eIM
@@ -81561,16 +81601,16 @@ eIM
 eIM
 eIM
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+yek
+yek
+rlB
+yek
+hAz
+pUj
+hTz
 ucA
 eIM
 eIM
@@ -81584,16 +81624,16 @@ eIM
 eIM
 eIM
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+yek
+yek
+qcY
+yek
+hAz
+pUj
+hTz
 ucA
 eIM
 eIM
@@ -81818,16 +81858,16 @@ eIM
 eIM
 eIM
 ucA
-ucA
-ucA
+hTz
+sVs
 hAz
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hAz
+hAz
+hAz
+hAz
+hAz
+pUj
+hTz
 ucA
 uek
 nSk
@@ -81841,16 +81881,16 @@ eIM
 coT
 uek
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+hAz
+hAz
+hAz
+hAz
+hAz
+pUj
+hTz
 ucA
 eIM
 eIM
@@ -82087,15 +82127,15 @@ ucA
 ucA
 ucA
 fes
-tyq
-pdW
-cMR
-kQN
+kTj
 qHI
-emM
-tyq
-pdW
-cMR
+xuk
+kTj
+qHI
+xuk
+kTj
+qHI
+xuk
 osQ
 ucA
 ucA
@@ -82324,12 +82364,12 @@ eut
 eVs
 fes
 kTj
-cEr
-uzV
+qHI
+xuk
 bBD
 kTj
-cEr
-uzV
+qHI
+xuk
 osQ
 anp
 vSw
@@ -82368,12 +82408,12 @@ lCc
 wqR
 fes
 kTj
-cEr
-uzV
+qHI
+xuk
 bBD
 kTj
-cEr
-uzV
+qHI
+xuk
 osQ
 pzK
 hhK
@@ -82623,11 +82663,11 @@ dhB
 dhB
 dhB
 whp
-rAZ
+cjG
 vOh
-rAZ
+iid
 vSH
-teq
+wOJ
 fOB
 hkM
 kRh
@@ -82825,7 +82865,7 @@ hcB
 hqW
 suI
 kEw
-fCh
+dSN
 cQB
 deh
 vZw
@@ -83673,7 +83713,7 @@ rFO
 rFO
 cde
 vnm
-xqp
+yhM
 wkC
 hhK
 hhK
@@ -85986,7 +86026,7 @@ pHP
 ezz
 amw
 vnm
-xqp
+yhM
 wkC
 hhK
 hhK
@@ -86243,7 +86283,7 @@ iDf
 wIN
 cde
 vnm
-xqp
+yhM
 wkC
 hhK
 hhK
@@ -86750,7 +86790,7 @@ rFO
 cCa
 duZ
 duZ
-xqp
+yhM
 xcc
 jmn
 uTv
@@ -87007,12 +87047,12 @@ pnl
 sHc
 qvV
 sHc
-xqp
-xqp
+yhM
+yhM
 wyz
 pnl
-xqp
-xqp
+yhM
+yhM
 sHc
 wkC
 hhK
@@ -87264,8 +87304,8 @@ ieb
 mhc
 sxp
 cxb
-xqp
-xqp
+yhM
+yhM
 qCF
 rFO
 gKG
@@ -87463,13 +87503,13 @@ fCh
 hyp
 eVs
 fes
-tyq
-pdW
-cMR
+xHt
+pxb
+tqm
 yfn
-tyq
-pdW
-cMR
+xHt
+pxb
+tqm
 osQ
 wqR
 vSw
@@ -87507,26 +87547,26 @@ pKt
 vSw
 anp
 fes
-tyq
-pdW
-cMR
+xHt
+pxb
+tqm
 yfn
-tyq
-pdW
-cMR
+xHt
+pxb
+tqm
 osQ
 wkC
 rFO
 ajX
 fgP
 sHc
-xqp
-xqp
+yhM
+yhM
 lfL
 pbN
 rFO
 mYS
-xqp
+yhM
 cxb
 wkC
 hhK
@@ -87741,15 +87781,15 @@ ucA
 ucA
 ucA
 fes
-tyq
-pdW
-cMR
 xHt
 pxb
 tqm
-tyq
-pdW
-cMR
+xHt
+pxb
+tqm
+xHt
+pxb
+tqm
 osQ
 ucA
 ucA
@@ -87774,16 +87814,16 @@ rOC
 nWB
 wkC
 qiS
-xqp
+yhM
 qKB
 cxb
 sHc
-xqp
+yhM
 ppS
 jmn
 rFO
 pnl
-xqp
+yhM
 sHc
 wkC
 hhK
@@ -87986,16 +88026,16 @@ mHA
 pzn
 uwT
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+hAz
+hAz
+hAz
+hAz
+hAz
+pUj
+hTz
 ucA
 nQe
 vZt
@@ -88009,23 +88049,23 @@ nQe
 qfg
 aWo
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+hAz
+hAz
+hAz
+hAz
+hAz
+pUj
+hTz
 ucA
 hcB
 vbW
 lan
 jmn
 jmn
-weF
+ksY
 jmn
 jmn
 eGV
@@ -88243,16 +88283,16 @@ rkW
 pzn
 mUX
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+yek
+yek
+aQa
+yek
+hAz
+pUj
+hTz
 ucA
 hCB
 rzt
@@ -88266,16 +88306,16 @@ hCB
 wxE
 nhe
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+yek
+yek
+aWD
+yek
+hAz
+pUj
+hTz
 ucA
 vbW
 vbW
@@ -88283,8 +88323,8 @@ wvw
 gQe
 uNX
 qGL
-pUj
-nJt
+xkq
+xkq
 iCD
 wkC
 kQL
@@ -88500,16 +88540,16 @@ qnd
 pzn
 xYK
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+ruk
+fTa
+fTa
+fTa
+fTa
+fTa
+fTa
+pfi
+hTz
 ucA
 hCB
 trE
@@ -88523,16 +88563,16 @@ hCB
 trE
 nhe
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+ruk
+fTa
+fTa
+fTa
+fTa
+fTa
+fTa
+pfi
+hTz
 ucA
 vbW
 hgU
@@ -88545,13 +88585,13 @@ sax
 wkC
 wkC
 cCa
-xqp
+yhM
 tWD
 rRw
 qDF
-xqp
-xqp
-xqp
+yhM
+yhM
+yhM
 oPM
 rFO
 pnl
@@ -88757,16 +88797,16 @@ pzn
 pzn
 pzn
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+dxs
+frC
+frC
+frC
+frC
+frC
+frC
+frC
+frC
+dxs
 ucA
 hCB
 trE
@@ -88780,16 +88820,16 @@ hCB
 cTJ
 nhe
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+dxs
+aHi
+aHi
+aHi
+aHi
+aHi
+aHi
+aHi
+aHi
+dxs
 ucA
 hcB
 vbW
@@ -88801,12 +88841,12 @@ hfT
 mwA
 tah
 wkC
-xqp
+yhM
 sHc
 iyS
 xOB
 hAG
-xqp
+yhM
 sHc
 sHc
 oPM
@@ -89014,16 +89054,16 @@ pzn
 ocX
 pzn
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+qQm
 wST
 awA
 pxS
@@ -89037,16 +89077,16 @@ wcq
 pxS
 cwe
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+ygK
 wST
 hfH
 vbW
@@ -89069,7 +89109,7 @@ xZG
 jmn
 jmn
 ajX
-xqp
+yhM
 wkC
 hhK
 hhK
@@ -89271,16 +89311,16 @@ aWo
 pzn
 cvN
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 noQ
 ocX
@@ -89294,16 +89334,16 @@ pzn
 lmo
 pzn
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 byy
 vbW
@@ -89317,7 +89357,7 @@ hml
 wkC
 wLR
 wLR
-xqp
+yhM
 gqr
 lqr
 wLR
@@ -89325,7 +89365,7 @@ sHc
 qCF
 rFO
 pnl
-xqp
+yhM
 tJe
 wkC
 hhK
@@ -89528,16 +89568,16 @@ hCw
 pzn
 cvN
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 pzn
 pzn
@@ -89551,16 +89591,16 @@ pzK
 pzn
 ocX
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 vbW
 vbW
@@ -89573,11 +89613,11 @@ trE
 oQj
 wkC
 fSd
-xqp
-xqp
+yhM
+yhM
 sHc
-xqp
-xqp
+yhM
+yhM
 hzd
 rFO
 jmn
@@ -89785,16 +89825,16 @@ nhe
 lmo
 goT
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 qfg
 qfg
@@ -89808,16 +89848,16 @@ pzK
 qfg
 qfg
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 byy
 vbW
@@ -89831,8 +89871,8 @@ pzH
 wkC
 cPW
 lOw
-xqp
-xqp
+yhM
+yhM
 hzd
 khw
 vJd
@@ -90042,16 +90082,16 @@ nhe
 pzn
 lFi
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 jmn
 jmn
@@ -90065,16 +90105,16 @@ pzK
 qcp
 rFO
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 jGV
 hcB
@@ -90089,7 +90129,7 @@ wkC
 rqa
 pZI
 sJI
-xqp
+yhM
 oPM
 rFO
 jmn
@@ -90299,16 +90339,16 @@ nhe
 pzn
 cvN
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 gQe
 krZ
@@ -90322,16 +90362,16 @@ pzK
 gui
 nhr
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 byy
 vbW
@@ -90556,16 +90596,16 @@ hCw
 ocX
 cvN
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 jmn
 krZ
@@ -90579,16 +90619,16 @@ iaR
 gui
 jmn
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 byy
 vbW
@@ -90602,7 +90642,7 @@ oQj
 wkC
 pIu
 dOM
-xqp
+yhM
 qom
 jmn
 jmn
@@ -90813,16 +90853,16 @@ nhe
 pzn
 cvN
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 uNX
 krZ
@@ -90836,16 +90876,16 @@ iaR
 gui
 gQe
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 byy
 nhk
@@ -90858,8 +90898,8 @@ qpd
 gXo
 wkC
 qlg
-xqp
-xqp
+yhM
+yhM
 ppS
 rFO
 wFM
@@ -91070,16 +91110,16 @@ nhe
 lmo
 kPY
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+qYX
+rst
+rst
+rst
+rst
 wST
 jmn
 krZ
@@ -91093,16 +91133,16 @@ iaR
 gui
 jmn
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+eKl
+rst
+rst
+rst
+rst
 wST
 hcB
 vbW
@@ -91121,8 +91161,8 @@ gQX
 jmn
 rFO
 mYS
-xqp
-xqp
+yhM
+yhM
 vbM
 qaK
 cfk
@@ -91327,16 +91367,16 @@ hCw
 pzn
 goT
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 jmn
 jYQ
@@ -91350,16 +91390,16 @@ iaR
 gui
 jmn
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 byy
 vbW
@@ -91371,7 +91411,7 @@ dDZ
 hSg
 qZi
 wkC
-xqp
+yhM
 ppS
 rFO
 jmn
@@ -91379,7 +91419,7 @@ mOA
 rTO
 ieb
 sHc
-xqp
+yhM
 paR
 nsf
 qom
@@ -91584,16 +91624,16 @@ nhe
 noQ
 dzz
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 jmn
 krZ
@@ -91607,16 +91647,16 @@ nJD
 gui
 nhr
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 byy
 heE
@@ -91628,14 +91668,14 @@ gfP
 hSg
 gSD
 wkC
-xqp
+yhM
 kcz
 jmn
 rTO
 wnL
-xqp
+yhM
 hEV
-xqp
+yhM
 sHc
 wLR
 oqw
@@ -91841,16 +91881,16 @@ nhe
 pzn
 cvN
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 qcp
 krZ
@@ -91864,16 +91904,16 @@ pzK
 gui
 uNX
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 byy
 vbW
@@ -91888,14 +91928,14 @@ wkC
 xZG
 jmn
 cCa
-xqp
-xqp
+yhM
+yhM
 wLR
 pGA
 duP
 kxV
-xqp
-xqp
+yhM
+yhM
 qCF
 wkC
 hhK
@@ -92098,16 +92138,16 @@ yjf
 ocX
 qYR
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 gQe
 jmn
@@ -92121,16 +92161,16 @@ pzK
 jmn
 jmn
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 heE
 vbW
@@ -92146,7 +92186,7 @@ dMS
 wnL
 wLR
 kYs
-xqp
+yhM
 wLR
 iyS
 xOB
@@ -92355,16 +92395,16 @@ nhe
 pzn
 ezt
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 pxS
 pxS
@@ -92378,16 +92418,16 @@ pzK
 pxS
 pxS
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 byy
 hcB
@@ -92612,16 +92652,16 @@ nhe
 pzn
 mek
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 pzn
 pzn
@@ -92635,16 +92675,16 @@ pzK
 pzn
 pzn
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 byy
 vbW
@@ -92869,16 +92909,16 @@ koV
 pzn
 cvN
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 ocX
 pzn
@@ -92892,16 +92932,16 @@ qDM
 pzn
 ocX
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 byy
 vbW
@@ -93126,16 +93166,16 @@ pzn
 pzn
 uDx
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+pgR
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 pzn
 lmo
@@ -93149,16 +93189,16 @@ pzn
 noQ
 pzn
 wST
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
-vIX
+uGf
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
+rst
 wST
 izF
 vbW
@@ -93383,16 +93423,16 @@ pzn
 ocX
 pzn
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+dxs
+xTI
+xTI
+xTI
+xTI
+xTI
+xTI
+xTI
+xTI
+dxs
 ucA
 pzn
 pzn
@@ -93406,16 +93446,16 @@ pzn
 pzn
 pzn
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+dxs
+nMg
+nMg
+nMg
+nMg
+nMg
+nMg
+nMg
+nMg
+dxs
 ucA
 gqq
 cfV
@@ -93640,16 +93680,16 @@ aWo
 pzn
 pzn
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+mRf
+all
+all
+all
+all
+all
+all
+nJt
+hTz
 ucA
 pzn
 nNt
@@ -93663,16 +93703,16 @@ cCu
 bzv
 pzn
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+mRf
+all
+all
+all
+all
+all
+all
+nJt
+hTz
 ucA
 qpo
 myC
@@ -93897,16 +93937,16 @@ nhe
 ocX
 pzn
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+yek
+yek
+cVB
+yek
+hAz
+pUj
+hTz
 ucA
 pzn
 gEy
@@ -93920,16 +93960,16 @@ pzn
 gEy
 ocX
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+yek
+yek
+oMq
+yek
+hAz
+pUj
+hTz
 ucA
 mzu
 bsu
@@ -94154,16 +94194,16 @@ nhe
 pzn
 pzn
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+hAz
+hAz
+hAz
+hAz
+hAz
+pUj
+hTz
 ucA
 pzn
 gEy
@@ -94177,16 +94217,16 @@ pzn
 gEy
 pzn
 ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
-ucA
+hTz
+sVs
+hAz
+hAz
+hAz
+hAz
+hAz
+hAz
+pUj
+hTz
 ucA
 lan
 gqu
@@ -94461,7 +94501,7 @@ wkC
 iJF
 wkC
 ehL
-ehL
+ydD
 wkC
 qDx
 wkC
@@ -94717,7 +94757,7 @@ wkC
 wkC
 iJF
 wkC
-ehL
+jot
 ehL
 jdA
 tIO
@@ -94974,8 +95014,8 @@ ehL
 ehL
 iJF
 sax
-ehL
-ehL
+whq
+fyR
 wkC
 wkC
 wkC
@@ -96237,7 +96277,7 @@ bBW
 tmr
 nJS
 pnl
-rnr
+svl
 hSK
 pzK
 trE
@@ -96978,7 +97018,7 @@ hhK
 hhK
 pzK
 eSq
-eSq
+umS
 eSq
 pzK
 hhK
@@ -97011,7 +97051,7 @@ hhK
 hhK
 pzK
 eSq
-eSq
+lHJ
 eSq
 pzK
 hhK
@@ -134864,7 +134904,7 @@ viG
 kfa
 wLN
 nje
-hTz
+mlv
 tDY
 gST
 tDY
@@ -135352,7 +135392,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 aGO
 ljp
 ccu
@@ -137656,7 +137696,7 @@ vNk
 rdr
 mju
 cTh
-xqp
+yhM
 rgJ
 tza
 rpJ
@@ -137696,7 +137736,7 @@ tDY
 pqK
 tDY
 mQZ
-sVs
+mtA
 wLN
 oKP
 viG
@@ -137897,7 +137937,7 @@ djR
 jmn
 tmP
 vbW
-xqp
+yhM
 pwF
 sHE
 okM
@@ -138154,7 +138194,7 @@ djR
 lsP
 tmP
 vbW
-xqp
+yhM
 wkC
 ygb
 uqy
@@ -138170,7 +138210,7 @@ wMM
 rvL
 bdY
 wkC
-xRT
+wkC
 fwM
 sax
 dlb
@@ -138204,7 +138244,7 @@ viG
 viG
 aYO
 wLN
-rst
+dmd
 fTH
 tDY
 gsX
@@ -138427,7 +138467,7 @@ dwy
 mvZ
 wkC
 wkC
-wsU
+jmn
 jmn
 vIl
 sax
@@ -138442,7 +138482,7 @@ jnK
 dHO
 enm
 aEM
-xqp
+yhM
 tuV
 pBn
 tzj
@@ -138467,7 +138507,7 @@ mJP
 dhr
 qnz
 uJi
-luw
+eBG
 heR
 oav
 viG
@@ -138697,7 +138737,7 @@ fHy
 vlQ
 djR
 fYS
-xqp
+yhM
 wkC
 bgr
 whd
@@ -138957,11 +138997,11 @@ wat
 olq
 wkC
 pkC
-xqp
+yhM
 bpx
 knE
 mUp
-rNQ
+vFG
 vRa
 jmn
 uQN
@@ -139209,7 +139249,7 @@ lyU
 ykf
 djR
 uqh
-xqp
+yhM
 cYN
 aKW
 wkC
@@ -139218,7 +139258,7 @@ lSb
 aOg
 rUf
 tmP
-fYE
+uRG
 jmn
 jmn
 uQN
@@ -139235,7 +139275,7 @@ wLN
 dmd
 iuD
 tDY
-jvx
+chg
 tDY
 shN
 nlk
@@ -139439,25 +139479,25 @@ djR
 jmn
 tmP
 vbW
-dcm
+uRG
 rCA
 vNk
 uGB
-xqp
+yhM
 ihO
 hhu
 nkA
 lIQ
 wkC
 iVd
-hkV
+ykf
 loy
 beF
 rcn
 jmn
 jmn
 evE
-xqp
+yhM
 tzX
 meK
 jLQ
@@ -139696,7 +139736,7 @@ djR
 jmn
 tmP
 vbW
-dcm
+uRG
 wkC
 wXZ
 jLQ
@@ -139707,13 +139747,13 @@ vNk
 okM
 gnb
 lOU
-hkV
+ykf
 lks
 jmn
 neQ
 weF
 wnL
-xqp
+yhM
 nOa
 mfD
 fsQ
@@ -139964,7 +140004,7 @@ oQg
 jdf
 wkC
 jtu
-hkV
+ykf
 oIZ
 xNT
 jmn
@@ -140231,7 +140271,7 @@ hUr
 hIl
 cxM
 uQP
-xqp
+yhM
 tKn
 cFP
 wkC
@@ -140483,8 +140523,8 @@ wLZ
 fxf
 iOz
 ukC
-xqp
-xqp
+yhM
+yhM
 okh
 pDi
 mHJ
@@ -140741,13 +140781,13 @@ wkC
 vbj
 rgZ
 awr
-xqp
+yhM
 sMe
 jvw
 gzD
 wsc
 mKO
-xqp
+yhM
 wkC
 ydo
 uaS
@@ -140952,7 +140992,7 @@ jmn
 tmP
 pHP
 wkC
-ahf
+sGN
 hjO
 iTG
 iUO
@@ -140994,7 +141034,7 @@ wkC
 wkC
 rQV
 rwG
-xqp
+yhM
 oPM
 rTO
 jmn
@@ -141003,7 +141043,7 @@ nOa
 pDi
 dIp
 nDj
-xqp
+yhM
 dVS
 wkC
 sey
@@ -141013,7 +141053,7 @@ kwu
 jsX
 wkC
 nSW
-xqp
+yhM
 fiV
 xgL
 sMJ
@@ -141031,13 +141071,13 @@ viG
 viG
 kfa
 bBx
-lsp
-eSs
-eSs
+kcP
+yhM
+yhM
 hFT
-eSs
-eSs
-dYR
+yhM
+yhM
+oFC
 bBx
 tAU
 viG
@@ -141253,7 +141293,7 @@ aKZ
 aKD
 uKG
 bAu
-xqp
+yhM
 oPM
 gEY
 wGO
@@ -142052,11 +142092,11 @@ jmn
 gQe
 xCO
 eMP
-xqp
-xqp
-xqp
-xqp
-xqp
+yhM
+yhM
+yhM
+yhM
+yhM
 jRV
 vZK
 exH
@@ -142774,7 +142814,7 @@ wkC
 dFZ
 wkC
 wkC
-xqp
+yhM
 fbL
 mck
 dLL
@@ -143317,7 +143357,7 @@ sHA
 tPy
 knE
 knE
-vzu
+wsU
 nzP
 gbF
 knE
@@ -143575,7 +143615,7 @@ wvS
 lsP
 jmn
 tmP
-sMq
+ykf
 djR
 jtY
 tmP
@@ -143587,7 +143627,7 @@ jhg
 pTi
 jtY
 rbs
-fYE
+uRG
 jmn
 dFB
 uQN
@@ -143831,7 +143871,7 @@ cAQ
 wvS
 jmn
 nLS
-mBf
+oMM
 uRV
 ntc
 wvG
@@ -144095,7 +144135,7 @@ fOJ
 djR
 bkq
 oLG
-xqp
+yhM
 elV
 nWC
 tmP
@@ -144262,31 +144302,31 @@ hhK
 hhK
 hhK
 wkC
-xqp
-xqp
-xqp
-xqp
-xqp
+yhM
+yhM
+yhM
+yhM
+yhM
 xCB
-xqp
-xqp
-xqp
-xqp
+yhM
+yhM
+yhM
+yhM
 sHc
-xqp
-xqp
-xqp
-xqp
+yhM
+yhM
+yhM
+yhM
 aoo
 nPo
 vbW
 vbW
 vbW
 sGQ
-xqp
-xqp
+yhM
+yhM
 nXP
-xqp
+yhM
 fbL
 qPY
 fFd
@@ -144519,29 +144559,29 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 aWm
 jOQ
 jOQ
 lpt
 jOQ
 vJC
-xqp
+yhM
 aoo
-xqp
-xqp
+yhM
+yhM
 xCB
-xqp
-xqp
+yhM
+yhM
 kka
-xqp
+yhM
 wkC
 hwW
 saH
 saH
 whK
 sHc
-xqp
+yhM
 brh
 iHt
 vbW
@@ -144595,7 +144635,7 @@ wkC
 wkC
 uTx
 sHc
-xqp
+yhM
 qCF
 rFO
 amV
@@ -144635,7 +144675,7 @@ tDY
 tyd
 tDY
 mQZ
-sVs
+mtA
 wLN
 oav
 viG
@@ -144779,28 +144819,28 @@ wkC
 xCB
 ozD
 sHc
-xqp
-xqp
-xqp
+yhM
+yhM
+yhM
 ozD
 brh
-xqp
-xqp
+yhM
+yhM
 jks
-xqp
-xqp
+yhM
+yhM
 nyl
-xqp
-xqp
+yhM
+yhM
 uHx
 hwW
 saH
 saH
 whK
-xqp
-xqp
+yhM
+yhM
 sHc
-xqp
+yhM
 fbL
 djR
 jmn
@@ -145033,18 +145073,18 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 ozD
 czt
-xqp
+yhM
 hRP
-xqp
+yhM
 fbA
 gRD
 xCB
 sHc
-xqp
-xqp
+yhM
+yhM
 bNb
 wkC
 szC
@@ -145057,7 +145097,7 @@ rRP
 qSN
 xCB
 kka
-xqp
+yhM
 fbL
 djR
 lsP
@@ -145111,7 +145151,7 @@ wFr
 oPM
 rFO
 pnl
-xqp
+yhM
 ozD
 fbL
 djR
@@ -145143,7 +145183,7 @@ viG
 viG
 kfa
 wLN
-rst
+dmd
 fTH
 tDY
 gsX
@@ -145290,7 +145330,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 ozD
 cLw
 gRD
@@ -145368,7 +145408,7 @@ huO
 bXp
 jmn
 fGU
-xqp
+yhM
 hfu
 fbL
 oLr
@@ -145552,14 +145592,14 @@ ozD
 aZz
 gYI
 oVz
-xqp
+yhM
 wkC
 ndq
 jDs
 wkC
 gAe
 wkC
-xqp
+yhM
 szC
 xMb
 evD
@@ -145583,7 +145623,7 @@ vPf
 nMR
 sTC
 lPh
-xqp
+yhM
 xBJ
 oRN
 akP
@@ -145804,11 +145844,11 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 ozD
 aZz
 hlH
-xqp
+yhM
 vPO
 wkC
 uqJ
@@ -146061,7 +146101,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 ozD
 aZz
 hlH
@@ -146174,7 +146214,7 @@ wLN
 dmd
 iuD
 tDY
-jvx
+chg
 tDY
 shN
 nlk
@@ -146318,7 +146358,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 ozD
 dQs
 hZM
@@ -146575,7 +146615,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 wkC
 wkC
 wkC
@@ -146597,9 +146637,9 @@ tuT
 mcr
 nCf
 szC
-xqp
-xqp
-xqp
+yhM
+yhM
+yhM
 fbL
 djR
 jmn
@@ -146628,7 +146668,7 @@ wkC
 wkC
 wVs
 viA
-oOQ
+uRV
 uRV
 pHP
 djR
@@ -146854,9 +146894,9 @@ suX
 rVl
 vjl
 szC
-xqp
+yhM
 sHc
-xqp
+yhM
 fbL
 djR
 jmn
@@ -146885,8 +146925,8 @@ wkC
 tzt
 iTY
 tnL
-tvZ
-hkV
+ykf
+ykf
 vbW
 djR
 jmn
@@ -147089,7 +147129,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 wkC
 eeB
 ilU
@@ -147112,8 +147152,8 @@ szC
 szC
 wkC
 xCB
-xqp
-xqp
+yhM
+yhM
 fbL
 djR
 rFO
@@ -147142,7 +147182,7 @@ puA
 cBf
 jdy
 uNZ
-eMl
+nzP
 nzP
 vbW
 djR
@@ -147346,7 +147386,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 wkC
 esT
 esT
@@ -147366,11 +147406,11 @@ tPM
 rcg
 wkC
 sHc
-xqp
+yhM
 skn
 blC
-xqp
-xqp
+yhM
+yhM
 fbL
 djR
 jmn
@@ -147437,7 +147477,7 @@ dRf
 got
 iIs
 qcE
-xqp
+yhM
 dxE
 ids
 pHP
@@ -147603,7 +147643,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 wkC
 eHS
 ipE
@@ -147623,11 +147663,11 @@ agq
 bLs
 wkC
 dDv
-xqp
+yhM
 nyl
-xqp
-xqp
-xqp
+yhM
+yhM
+yhM
 fbL
 bbX
 jmn
@@ -147656,7 +147696,7 @@ puA
 bzI
 nFV
 rzP
-oOQ
+uRV
 uRV
 vbW
 djR
@@ -147699,7 +147739,7 @@ kyO
 kOK
 fcb
 tJq
-rNQ
+vFG
 vRa
 jmn
 uQN
@@ -147860,7 +147900,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 wkC
 wkC
 wkC
@@ -147880,10 +147920,10 @@ wkC
 wkC
 uHx
 tGB
-xqp
-xqp
+yhM
+yhM
 eSL
-xqp
+yhM
 kQM
 vbW
 djR
@@ -147907,14 +147947,14 @@ mHC
 mOJ
 psb
 mFN
-xqp
+yhM
 nTQ
 wkC
 kSM
 fgT
 hkz
-tvZ
-hkV
+ykf
+ykf
 vbW
 fgI
 cdI
@@ -147956,7 +147996,7 @@ djA
 izn
 jtY
 wME
-fYE
+uRG
 jmn
 jmn
 uQN
@@ -148137,10 +148177,10 @@ kBm
 afh
 wkC
 nzt
-xqp
+yhM
 kQM
 sxD
-xqp
+yhM
 fbL
 vbW
 djR
@@ -148170,7 +148210,7 @@ puA
 rpR
 iZr
 mAH
-eMl
+nzP
 nzP
 vbW
 djR
@@ -148374,7 +148414,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 bgz
 wkC
 iXJ
@@ -148394,10 +148434,10 @@ eYN
 haX
 eoo
 san
-xqp
+yhM
 sjb
-xqp
-xqp
+yhM
+yhM
 tfG
 vbW
 djR
@@ -148631,7 +148671,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 brh
 wkC
 iYd
@@ -148653,9 +148693,9 @@ wkC
 qAN
 cLw
 iBv
-xqp
+yhM
 aoo
-xqp
+yhM
 fbL
 djR
 jmn
@@ -148684,7 +148724,7 @@ puA
 hdw
 qPE
 ujz
-oOQ
+uRV
 uRV
 pHP
 djR
@@ -148742,7 +148782,7 @@ kyN
 lRk
 wLN
 eOe
-hTz
+mlv
 tDY
 gST
 tDY
@@ -148888,8 +148928,8 @@ hhK
 hhK
 hhK
 wkC
-xqp
-xqp
+yhM
+yhM
 wkC
 jsK
 qXN
@@ -148912,7 +148952,7 @@ rzW
 xvR
 gPR
 xCB
-xqp
+yhM
 fbL
 djR
 jmn
@@ -148941,8 +148981,8 @@ wkC
 fXy
 sFm
 xLV
-tvZ
-hkV
+ykf
+ykf
 pHP
 bbX
 rFO
@@ -148991,11 +149031,11 @@ gQe
 jmn
 irj
 eMP
-xqp
-xqp
-xqp
-xqp
-xqp
+yhM
+yhM
+yhM
+yhM
+yhM
 jRV
 vZK
 eOe
@@ -149145,7 +149185,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 bwd
 wkC
 jTj
@@ -149163,13 +149203,13 @@ wkC
 auc
 wwW
 eyO
-xqp
-xqp
-xqp
-xqp
+yhM
+yhM
+yhM
+yhM
 ozD
-xqp
-xqp
+yhM
+yhM
 fbL
 djR
 jmn
@@ -149198,7 +149238,7 @@ wkC
 wkC
 jEz
 mbu
-eMl
+nzP
 nzP
 pHP
 djR
@@ -149403,7 +149443,7 @@ hhK
 hhK
 wkC
 xCB
-xqp
+yhM
 wkC
 kwd
 rNb
@@ -149421,11 +149461,11 @@ nPz
 rfg
 lnT
 jks
-xqp
+yhM
 vZx
 sHc
 ozD
-xqp
+yhM
 jUt
 fbL
 djR
@@ -149659,8 +149699,8 @@ hhK
 hhK
 hhK
 wkC
-xqp
-xqp
+yhM
+yhM
 wkC
 iYd
 rVh
@@ -149675,14 +149715,14 @@ mvz
 vIX
 lHq
 awr
-xqp
-xqp
-xqp
+yhM
+yhM
+yhM
 cLw
 hlH
-xqp
+yhM
 eHn
-xqp
+yhM
 hBK
 fbL
 djR
@@ -149916,7 +149956,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 sHc
 wkC
 iXJ
@@ -149932,15 +149972,15 @@ vIX
 grX
 wkC
 cXU
-xqp
+yhM
 jUt
 bNb
 bgz
 hZM
-xqp
+yhM
 ozD
-xqp
-xqp
+yhM
+yhM
 fbL
 djR
 jmn
@@ -150173,8 +150213,8 @@ hhK
 hhK
 hhK
 wkC
-xqp
-xqp
+yhM
+yhM
 wkC
 kwz
 sNI
@@ -150191,13 +150231,13 @@ wkC
 wnL
 wLs
 tXk
-xqp
+yhM
 aXM
 aXM
-xqp
+yhM
 ozD
-xqp
-xqp
+yhM
+yhM
 fbL
 djR
 jmn
@@ -150430,8 +150470,8 @@ hhK
 hhK
 hhK
 wkC
-xqp
-xqp
+yhM
+yhM
 wkC
 wkC
 tuy
@@ -150451,10 +150491,10 @@ aXM
 sHc
 aXM
 aXM
-xqp
+yhM
 ozD
 sHc
-xqp
+yhM
 fbL
 lsP
 jmn
@@ -150687,7 +150727,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 aoo
 fbA
 kFy
@@ -150702,16 +150742,16 @@ fdn
 ezh
 vIX
 wkC
-xqp
+yhM
 xpq
 rTV
-xqp
+yhM
 wLs
 rTV
-xqp
+yhM
 ozD
-xqp
-xqp
+yhM
+yhM
 fbL
 djR
 jmn
@@ -150945,7 +150985,7 @@ hhK
 hhK
 wkC
 apS
-xqp
+yhM
 fqw
 jmn
 jmn
@@ -150965,10 +151005,10 @@ ssO
 sls
 iGy
 nnv
-xqp
+yhM
 fbA
 jJG
-xqp
+yhM
 fbL
 bbX
 jmn
@@ -151225,7 +151265,7 @@ jOQ
 jOQ
 nkD
 hZM
-xqp
+yhM
 fbL
 qPY
 fFd
@@ -151458,19 +151498,19 @@ hhK
 hhK
 hhK
 wkC
-xqp
-xqp
-xqp
+yhM
+yhM
+yhM
 lnT
-xqp
-xqp
-xqp
+yhM
+yhM
+yhM
 sHc
-xqp
+yhM
 xCB
-xqp
+yhM
 sHc
-xqp
+yhM
 qOq
 nZJ
 eTs
@@ -151479,10 +151519,10 @@ lZJ
 lZJ
 bGQ
 aoo
-xqp
-xqp
-xqp
-xqp
+yhM
+yhM
+yhM
+yhM
 fbL
 mck
 dLL
@@ -151574,7 +151614,7 @@ tDY
 tyd
 tDY
 mQZ
-sVs
+mtA
 wLN
 qJZ
 viG
@@ -151805,7 +151845,7 @@ nOL
 nLX
 tmP
 elV
-xqp
+yhM
 xlQ
 djR
 shJ
@@ -152055,8 +152095,8 @@ pmx
 mvD
 dHO
 nXe
-pBn
-lGj
+tJq
+nzP
 tYL
 vWs
 fwU
@@ -152068,7 +152108,7 @@ qfi
 xcH
 knE
 tJq
-rNQ
+vFG
 vRa
 jmn
 uQN
@@ -152082,7 +152122,7 @@ viG
 viG
 ubQ
 wLN
-rst
+dmd
 fTH
 tDY
 gsX
@@ -152300,7 +152340,7 @@ jmn
 rFO
 rFO
 jmn
-lsP
+sHc
 jmn
 rTO
 jmn
@@ -152310,10 +152350,10 @@ rFO
 jmn
 xVR
 wvS
-lsP
+sHc
 jmn
 shJ
-oze
+ykf
 djR
 jtY
 shJ
@@ -152569,7 +152609,7 @@ boT
 sss
 eTs
 eTs
-mBf
+oMM
 uRV
 krg
 eTs
@@ -152788,7 +152828,7 @@ vbW
 vbW
 sIa
 hgo
-xqp
+yhM
 fbL
 vbW
 mqy
@@ -152833,7 +152873,7 @@ bgN
 djR
 tmP
 geg
-xqp
+yhM
 aEM
 nLX
 bkq
@@ -153113,7 +153153,7 @@ wLN
 dmd
 iuD
 tDY
-jvx
+chg
 tDY
 shN
 nlk
@@ -153299,7 +153339,7 @@ xEp
 jLQ
 pnJ
 vAJ
-xqp
+yhM
 aWp
 sHc
 sLu
@@ -153563,7 +153603,7 @@ oPM
 sJT
 mlS
 ome
-cAQ
+jJM
 irU
 irj
 tXg
@@ -153590,13 +153630,13 @@ jmn
 nLS
 mEM
 mfD
-xqp
+yhM
 xZG
 jmn
 qqP
 unN
 pnl
-xqp
+yhM
 oPM
 wkC
 xkl
@@ -153772,7 +153812,7 @@ hhK
 hhK
 wkC
 pnl
-xqp
+yhM
 pKB
 tsr
 wkC
@@ -154319,7 +154359,7 @@ cLF
 vIs
 mqR
 nvy
-xqp
+yhM
 ocP
 jkf
 usM
@@ -154362,7 +154402,7 @@ bEg
 bWT
 din
 isg
-xqp
+yhM
 qoj
 pBb
 qZl
@@ -154564,7 +154604,7 @@ biE
 bKq
 msr
 opK
-xqp
+yhM
 aPe
 sHc
 fbL
@@ -154625,7 +154665,7 @@ qZl
 ugp
 dZc
 pnl
-xqp
+yhM
 wkC
 klO
 aBV
@@ -155089,8 +155129,8 @@ vbW
 wkC
 wkC
 wkC
-arj
-qqM
+kTj
+qHI
 xuk
 wkC
 wkC
@@ -155661,7 +155701,7 @@ cQg
 djR
 wnL
 emW
-xqp
+yhM
 lSv
 baF
 fXK
@@ -155878,7 +155918,7 @@ nzP
 bJM
 tQR
 jtY
-xqp
+yhM
 gnL
 gmB
 tmP
@@ -156161,7 +156201,7 @@ nIs
 gzL
 hmx
 nVj
-xqp
+yhM
 kte
 kZS
 qZl
@@ -156361,11 +156401,11 @@ aRO
 dXU
 czF
 lOi
-aOx
+rRb
 gVD
 qAj
 jvR
-aOV
+nzP
 xaf
 djR
 jmn
@@ -156433,11 +156473,11 @@ whd
 xBc
 wkC
 tRT
-xqp
+yhM
 bpx
 knE
 tJq
-rNQ
+vFG
 vRa
 jmn
 uQN
@@ -156618,11 +156658,11 @@ vop
 eVN
 qjg
 lOi
-aOx
+rRb
 uhm
 fYk
 foE
-wls
+ykf
 lxN
 djR
 rFO
@@ -156675,14 +156715,14 @@ iXR
 kpt
 rJF
 qQH
-xqp
+yhM
 esJ
 wbR
 rmt
 dHO
 jmn
 jmn
-kea
+ykf
 djR
 uqh
 cCU
@@ -156691,10 +156731,10 @@ fNh
 wkC
 oDN
 jLQ
-xqp
+yhM
 ijE
 tmP
-fYE
+uRG
 jmn
 dHh
 uQN
@@ -156875,11 +156915,11 @@ pcO
 tUM
 iAb
 lOi
-aOx
+rRb
 nAg
 xpu
 gCb
-qNC
+uRV
 xHP
 djR
 jmn
@@ -156931,7 +156971,7 @@ ewn
 aUy
 dHO
 pnl
-xqp
+yhM
 ewn
 gnL
 tmI
@@ -157197,10 +157237,10 @@ jmn
 qrX
 jmn
 wnT
-xqp
+yhM
 ups
 oLr
-xqp
+yhM
 aHf
 wkC
 hwM
@@ -157966,7 +158006,7 @@ bRo
 pSc
 jmn
 pnl
-xqp
+yhM
 wkC
 cuZ
 eRS
@@ -158513,7 +158553,7 @@ tDY
 tyd
 tDY
 mQZ
-sVs
+mtA
 wLN
 tAU
 viG
@@ -158676,7 +158716,7 @@ biE
 bKq
 xmi
 wNV
-xqp
+yhM
 bjk
 sHc
 fbL
@@ -159021,7 +159061,7 @@ viG
 viG
 xZX
 wLN
-rst
+dmd
 fTH
 tDY
 gsX
@@ -159684,7 +159724,7 @@ hhK
 wkC
 wnL
 hyd
-xqp
+yhM
 gnL
 wkC
 wkC
@@ -159714,7 +159754,7 @@ tmP
 vbW
 cFd
 sHc
-xqp
+yhM
 vLL
 oVz
 sHc
@@ -159747,8 +159787,8 @@ djR
 jmn
 uKG
 pnl
-xqp
-xqp
+yhM
+yhM
 tpM
 jmn
 cBE
@@ -159939,7 +159979,7 @@ hhK
 hhK
 hhK
 wkC
-xqp
+yhM
 xTC
 hRP
 jLQ
@@ -159973,7 +160013,7 @@ kFH
 uKG
 awr
 jtY
-xqp
+yhM
 mvx
 voB
 sHc
@@ -159984,7 +160024,7 @@ rFO
 cKD
 awr
 jtY
-xqp
+yhM
 wzl
 aAP
 eeg
@@ -160005,7 +160045,7 @@ jmn
 jmn
 rFO
 awr
-xqp
+yhM
 sHc
 oPM
 dxG
@@ -160022,7 +160062,7 @@ qSY
 pVZ
 pyl
 pnl
-xqp
+yhM
 wkC
 abW
 kUk
@@ -160229,7 +160269,7 @@ vbW
 djR
 jmn
 elR
-xqp
+yhM
 sHc
 gnL
 goC
